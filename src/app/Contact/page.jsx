@@ -6,6 +6,25 @@ import Header from "../Header/header";
 import Footer from "../Footer/footer";
 
 function Contact() {
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const data = {
+        name: String(e.target.name.value),
+        lastName: String(e.target.lastName.value),
+        companyName: String(e.target.lastName.value),
+        email: String(e.target.email.value),
+        telephone: String(e.target.telephone.value),
+        // message: String(e.target.message.value)
+    }
+    console.log(data)
+    const response = await fetch('/api/contact', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    });
+}
   return (
     <>
       <Header />
@@ -221,13 +240,14 @@ function Contact() {
                 <h4 class="text-white mb-4 fw-bold">
                   Need to make an inquiry?
                 </h4>
-                <form>
+                <form onSubmit = {handleSubmit}>
                   <div class="row m-0">
                     <div class="col-md-6 mb-2 px-1">
                       <input
                         type="text"
                         class="form-control"
                         placeholder="Your Name*"
+                        name = "name"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
@@ -235,6 +255,7 @@ function Contact() {
                         type="text"
                         class="form-control"
                         placeholder="Last Name*"
+                        name = "lastName"
                       />
                     </div>
                     <div class="col-md-12 mb-2 px-1">
@@ -242,6 +263,7 @@ function Contact() {
                         type="text"
                         class="form-control"
                         placeholder="Company Name*"
+                        name = "companyName"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
@@ -249,13 +271,15 @@ function Contact() {
                         type="email"
                         class="form-control"
                         placeholder="Email*"
+                        name = "email"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
                       <input
-                        type="email"
+                        type="text"
                         class="form-control"
                         placeholder="Phone*"
+                        name = "telephone"
                       />
                     </div>
                     <div class="col-md-12 mb-2 px-1">
@@ -275,6 +299,7 @@ function Contact() {
                       <textarea
                         class="w-100"
                         placeholder="Your Message"
+                        name = "yourMessage"
                       ></textarea>
                     </div>
                     <div class="col-md-12 mt-2 px-1">
