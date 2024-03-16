@@ -11,10 +11,10 @@ function Contact() {
     const data = {
         name: String(e.target.name.value),
         lastName: String(e.target.lastName.value),
-        companyName: String(e.target.lastName.value),
+        companyName: String(e.target.companyName.value),
         email: String(e.target.email.value),
         telephone: String(e.target.telephone.value),
-        // message: String(e.target.message.value)
+        message: String(e.target.yourMessage.value)
     }
     console.log(data)
     const response = await fetch('/api/contact', {

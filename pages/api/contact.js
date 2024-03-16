@@ -6,17 +6,18 @@ const transporter = nodeMailer.createTransport({
 });
 export default async function  handler(req, res) {
     try {
-        const {name, lastName, companyName, email, telephone} = req.body
+        const {name, lastName, companyName, email, telephone, message} = req.body
         await transporter.sendMail({
           from: 'kDeepakwebdev@gmail.com', 
           to: 'kDeepakwebdev@gmail.com',
           subject: 'testing',
           html: `
             <p>${name}</p>
-            <p>${email}</p>
-            <p>${telephone}</p>
             <p>${lastName}</p>
             <p>${companyName}</p>
+            <p>${email}</p>
+            <p>${telephone}</p>
+            <p>${message}</p>
             `
         });
         console.log('Email sent successfully!');
