@@ -5,6 +5,7 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
 
+
 function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault()
