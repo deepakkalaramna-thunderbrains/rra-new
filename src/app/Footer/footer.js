@@ -18,19 +18,19 @@ return(<footer className="bg-secondary-dark pt-5">
           <h6 className="mb-4">Explore</h6>
           <ul className="list-unstyled m-0">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="/About">About Us</a>
             </li>
             <li>
-              <a href="#">Our Services</a>
+              <a href="/FreightServices">Our Services</a>
             </li>
             <li>
               <a href="#">Group Companies</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="/Contact">Contact Us</a>
             </li>
           </ul>
         </div>
