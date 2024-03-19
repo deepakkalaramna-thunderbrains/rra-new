@@ -78,7 +78,9 @@ return(<footer className="bg-secondary-dark pt-5">
           </div>
           <div className="d-flex flex-column mt-3">
             <p className="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
-            <p className="text-white mb-0">200-45610 Luckakuck Way, Chilliwack, British Columbia, Canada, V2R 1A2</p>
+            <p className="text-white mb-0">204 - 2060 MCCALLUM ROAD
+ABBOTSFORD BC V2S 3N4 CANADA
+</p>
           </div>
         </li>
         <li>
@@ -116,7 +118,12 @@ return(<footer className="bg-secondary-dark pt-5">
           </div>
           <div class="d-flex flex-column mt-3">
             <p class="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
-            <p class="text-white mb-0">710 W Bell Rd #44, Glendale, Arkansas, United States, 85308</p>
+            <p class="text-white mb-0">Suite 301 - 2219 Rimland Drive
+Bellingham
+WA - (Washington)
+98226
+United States
+</p>
           </div>
         </li>
       </ul>
