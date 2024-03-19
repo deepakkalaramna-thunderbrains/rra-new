@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
         // Return success response
         return {
             statusCode: 200,
-            body: JSON.stringify({ message: "Email sent successfully" })
+            body: JSON.stringify({ name, message: "Email sent successfully" })
         };
     } catch (error) {
         // Log error message
