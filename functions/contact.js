@@ -12,19 +12,19 @@ exports.handler = async (event, context) => {
         const { name, lastName, companyName, email, telephone, message } = JSON.parse(event.body);
 
         // Send email asynchronously
-        // await transporter.sendMail({
-        //     from: 'kDeepakwebdev@gmail.com',
-        //     to: 'kDeepakwebdev@gmail.com',
-        //     subject: 'Testing',
-        //     html: `
-        //         <p>${name}</p>
-        //         <p>${lastName}</p>
-        //         <p>${companyName}</p>
-        //         <p>${email}</p>
-        //         <p>${telephone}</p>
-        //         <p>${message}</p>
-        //     `
-        // });
+        await transporter.sendMail({
+            from: 'kDeepakwebdev@gmail.com',
+            to: 'kDeepakwebdev@gmail.com',
+            subject: 'Testing',
+            html: `
+                <p>${name}</p>
+                <p>${lastName}</p>
+                <p>${companyName}</p>
+                <p>${email}</p>
+                <p>${telephone}</p>
+                <p>${message}</p>
+            `
+        });
 
         // Log success message
         console.log(name);
