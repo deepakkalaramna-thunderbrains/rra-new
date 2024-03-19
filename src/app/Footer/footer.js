@@ -77,7 +77,8 @@ return(<footer className="bg-secondary-dark pt-5">
             <p className="ps-3 mb-0 text-white">Canada</p>
           </div>
           <div className="d-flex flex-column mt-3">
-            <p className="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
+            <p className="text-white"><a href="mailto:rra@gmail.com">                              import@rragroup.ca 
+</a></p>
             <p className="text-white mb-0">204 - 2060 MCCALLUM ROAD
 ABBOTSFORD BC V2S 3N4 CANADA
 </p>
@@ -117,7 +118,8 @@ ABBOTSFORD BC V2S 3N4 CANADA
             <p class="ps-3 mb-0 text-white">United States</p>
           </div>
           <div class="d-flex flex-column mt-3">
-            <p class="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
+            <p class="text-white"><a href="mailto:rra@gmail.com">                              import@rragroup.ca 
+</a></p>
             <p class="text-white mb-0">Suite 301 - 2219 Rimland Drive
 Bellingham
 WA - (Washington)

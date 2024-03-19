@@ -566,15 +566,15 @@ export default function Main() {
                       <li>
                         <p class="mb-1 small">Contact No:</p>
                         <p class="m-0">
-                          <a href="tel:8797689876">879-768-9876</a>,
-                          <a href="tel:7567369763">756-736-9763</a>
+                          <a href="tel:8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
                         <p class="mb-1 small">Email ID:</p>
                         <p class="m-0">
                           <a href="mailto:rragroupcanada@gmail.com">
-                            rragroupcanada@gmail.com
+                          import@rragroup.ca 
+
                           </a>
                         </p>
                       </li>
@@ -682,15 +682,14 @@ export default function Main() {
                       <li>
                         <p class="mb-1 small">Contact No:</p>
                         <p class="m-0">
-                          <a href="tel:8764678873">876-467-8873</a>,
-                          <a href="tel:5679870987">567-987-0987</a>
+                          <a href="tel:8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
                         <p class="mb-1 small">Email ID:</p>
                         <p class="m-0">
                           <a href="mailto:rragroupus@gmail.com">
-                            rragroupus@gmail.com
+                          import@rragroup.ca 
                           </a>
                         </p>
                       </li>
