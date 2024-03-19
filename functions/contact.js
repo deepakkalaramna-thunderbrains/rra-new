@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
 exports.handler = async (event, context) => {
     try {
         // Parse request body
-        // const { name, lastName, companyName, email, telephone, message } = JSON.parse(event.body);
+        const { name, lastName, companyName, email, telephone, message } = JSON.parse(event.body);
 
         // Send email asynchronously
         // await transporter.sendMail({
@@ -27,6 +27,7 @@ exports.handler = async (event, context) => {
         // });
 
         // Log success message
+        console.log(name);
         console.log('Email sent successfully!');
 
         // Return success response
