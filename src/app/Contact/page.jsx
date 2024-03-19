@@ -1,33 +1,30 @@
-"use client"
+"use client";
 import "../globals.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
 
-
 function Contact() {
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     const data = {
-        name: String(e.target.name.value),
-        lastName: String(e.target.lastName.value),
-        companyName: String(e.target.companyName.value),
-        email: String(e.target.email.value),
-        telephone: String(e.target.telephone.value),
-        message: String(e.target.yourMessage.value)
-    }
-    console.log(data)
-    const response = await fetch('/.netlify/functions/contact', {
+      name: String(e.target.name.value),
+      lastName: String(e.target.lastName.value),
+      companyName: String(e.target.companyName.value),
+      email: String(e.target.email.value),
+      telephone: String(e.target.telephone.value),
+      message: String(e.target.yourMessage.value),
+    };
+    console.log(data);
+    const response = await fetch("/.netlify/functions/contact", {
       method: "POST",
       headers: {
-          "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(data)
-  });
-  
-  
-}
+      body: JSON.stringify(data),
+    });
+  };
   return (
     <>
       <Header />
@@ -111,8 +108,7 @@ function Contact() {
                       <li>
                         <p class="mb-1 small">Address:</p>
                         <p class="m-0">
-                          200-45610 Luckakuck Way, Chilliwack, British Columbia,
-                          Canada, V2R 1A2
+                          204 - 2060 MCCALLUM ROAD ABBOTSFORD BC V2S 3N4 CANADA
                         </p>
                       </li>
                     </ul>
@@ -229,8 +225,12 @@ function Contact() {
                       <li>
                         <p class="mb-1 small">Address:</p>
                         <p class="m-0">
-                          710 W Bell Rd #44, Glendale, Arkansas, United States,
-                          85308
+                        Suite 301 - 2219 Rimland Drive
+Bellingham
+WA - (Washington)
+98226
+USA
+
                         </p>
                       </li>
                     </ul>
@@ -243,14 +243,14 @@ function Contact() {
                 <h4 class="text-white mb-4 fw-bold">
                   Need to make an inquiry?
                 </h4>
-                <form onSubmit = {handleSubmit}>
+                <form onSubmit={handleSubmit}>
                   <div class="row m-0">
                     <div class="col-md-6 mb-2 px-1">
                       <input
                         type="text"
                         class="form-control"
                         placeholder="Your Name*"
-                        name = "name"
+                        name="name"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
@@ -258,7 +258,7 @@ function Contact() {
                         type="text"
                         class="form-control"
                         placeholder="Last Name*"
-                        name = "lastName"
+                        name="lastName"
                       />
                     </div>
                     <div class="col-md-12 mb-2 px-1">
@@ -266,7 +266,7 @@ function Contact() {
                         type="text"
                         class="form-control"
                         placeholder="Company Name*"
-                        name = "companyName"
+                        name="companyName"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
@@ -274,7 +274,7 @@ function Contact() {
                         type="email"
                         class="form-control"
                         placeholder="Email*"
-                        name = "email"
+                        name="email"
                       />
                     </div>
                     <div class="col-md-6 mb-2 px-1">
@@ -282,7 +282,7 @@ function Contact() {
                         type="text"
                         class="form-control"
                         placeholder="Phone*"
-                        name = "telephone"
+                        name="telephone"
                       />
                     </div>
                     <div class="col-md-12 mb-2 px-1">
@@ -302,7 +302,7 @@ function Contact() {
                       <textarea
                         class="w-100"
                         placeholder="Your Message"
-                        name = "yourMessage"
+                        name="yourMessage"
                       ></textarea>
                     </div>
                     <div class="col-md-12 mt-2 px-1">
