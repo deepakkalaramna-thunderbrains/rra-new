@@ -18,7 +18,7 @@ exports.handler = async (event, context) => {
         // Send email asynchronously
         await transporter.sendMail({
             from: "import@rragroup.ca",
-            to: "deepakit.k03@gmail.com",
+            to: "import@rragroup.ca",
             subject: 'Testing',
             html: `
                 <p>${name}</p>
