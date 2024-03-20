@@ -1,20 +1,24 @@
 const nodemailer = require("nodemailer");
 
-const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: false
-});
-
 exports.handler = async (event, context) => {
     try {
-        // Parse request body
         const { name, lastName, companyName, email, telephone, message } = JSON.parse(event.body);
+
+        // Create transporter with SMTP configuration
+        const transporter = nodemailer.createTransport({
+            host: "smtp.gmail.com",
+            port: 465,
+            secure: true, // true for 465 port, false for other ports
+            auth: {
+                user: "import@rragroup.ca",
+                pass: "lf@C5QHz8B$QL9S3"
+            }
+        });
 
         // Send email asynchronously
         await transporter.sendMail({
-            from: {email},
-            to: 'deepakit.k03@gmail.com',
+            from: "import@rragroup.ca",
+            to: "import@rragroup.ca",
             subject: 'Testing',
             html: `
                 <p>${name}</p>
@@ -26,20 +30,16 @@ exports.handler = async (event, context) => {
             `
         });
 
-        // Log success message
         console.log(name);
         console.log('Email sent successfully!');
 
-        // Return success response
         return {
             statusCode: 200,
             body: JSON.stringify({ name, message: "Email sent successfully" })
         };
     } catch (error) {
-        // Log error message
         console.error('Error sending email:', error);
 
-        // Return error response
         return {
             statusCode: 500,
             body: JSON.stringify({ message: "An error occurred while sending the email" })
