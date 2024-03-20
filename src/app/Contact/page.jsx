@@ -17,7 +17,7 @@ function Contact() {
       message: String(e.target.yourMessage.value),
     };
     console.log(data);
-    const response = await fetch("./netlify/function/contact", {
+    const response = await fetch("/.netlify/function/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
