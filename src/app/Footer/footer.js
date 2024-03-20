@@ -4,6 +4,8 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 
 export default function Footer(){
+let date = new Date()
+let currentYear = date.getFullYear()
 return(<footer className="bg-secondary-dark pt-5">
 <div className="container-fluid my-3">
   <div className="row pt-4 pb-5">
@@ -136,7 +138,7 @@ United States
     <div className="row">
       <div className="col-md-12">
         <div className="d-flex flex-nowrap align-items-center justify-content-between cus-copy-right">
-          <p className="m-0 text-white">ⓒ 2023 -- RRA Group</p>
+          <p className="m-0 text-white">ⓒ {currentYear}  -- RRA Group</p>
           <ul className="list-unstyled m-0 d-flex align-items-center cus-social-media">
             <li className="mb-0">
               <a href="https://www.facebook.com/people/RRA-Group-Inc/61557350933003/">

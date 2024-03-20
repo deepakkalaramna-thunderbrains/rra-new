@@ -566,7 +566,7 @@ export default function Main() {
                       <li>
                         <p class="mb-1 small">Contact No:</p>
                         <p class="m-0">
-                          <a href="tel:8883168287">(+1)888-316-8287</a>,
+                          <a href="tel:(+1)8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
@@ -682,7 +682,7 @@ export default function Main() {
                       <li>
                         <p class="mb-1 small">Contact No:</p>
                         <p class="m-0">
-                          <a href="tel:8883168287">(+1)888-316-8287</a>,
+                          <a href="tel:(+1)8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
