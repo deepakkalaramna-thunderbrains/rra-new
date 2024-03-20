@@ -17,7 +17,7 @@ function Contact() {
       message: String(e.target.yourMessage.value),
     };
     console.log(data);
-    const response = await fetch("../api/contact.js", {
+    const response = await fetch("../api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
