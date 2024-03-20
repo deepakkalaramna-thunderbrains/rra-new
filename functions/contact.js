@@ -1,8 +1,8 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-    host: "smtp.freesmtpservers.com",
-    port: 25,
+    host: "smtp.gmail.com",
+    port: 465,
     secure: false
 });
 
@@ -13,8 +13,8 @@ exports.handler = async (event, context) => {
 
         // Send email asynchronously
         await transporter.sendMail({
-            from: 'kDeepakwebdev@gmail.com',
-            to: 'kDeepakwebdev@gmail.com',
+            from: {email},
+            to: 'deepakit.k03@gmail.com',
             subject: 'Testing',
             html: `
                 <p>${name}</p>
