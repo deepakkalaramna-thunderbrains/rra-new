@@ -2,6 +2,7 @@
 import "../globals.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
+import './index'
 
 export default function Main() {
   const counters = {
@@ -82,21 +83,21 @@ export default function Main() {
         <div class="container-fluid">
           <div class="row" id="circle">
             <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 plus" data-count="800"></h2>
+              <h2 class="counter text-black m-0 plus" data-count="800">{counters.satisfiedCustomers}</h2>
               <h6 class="mt-2 mb-0 text-uppercase text-white">
-                {counters.satisfiedCustomers}Satisfied Customers
+                Satisfied Customers
               </h6>
             </div>
             <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 plus" data-count="10"></h2>
+              <h2 class="counter text-black m-0 plus" data-count="10">{counters.yearsOfExperience}</h2>
               <h6 class="mt-2 mb-0 text-uppercase text-white">
-                {counters.yearsOfExperience}Years of Experience
+                Years of Experience
               </h6>
             </div>
             <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 percent" data-count="100"></h2>
+              <h2 class="counter text-black m-0 percent" data-count="100">{counters.successRate}</h2>
               <h6 class="mt-2 mb-0 text-uppercase text-white">
-                {counters.successRate}Success Rate
+                Success Rate
               </h6>
             </div>
           </div>
