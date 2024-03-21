@@ -18,7 +18,7 @@ export default function Main() {
             <img alt="" class="img-fluid cover" src="images/slider-01.jpeg" />
             <div class="header-content text-white position-absolute slide-content col-lg-12">
               <h1 class="p-0 m-0 text-white text-uppercase">
-                Asset- Based Carrier <br />& Third-Party Logistics
+                Asset - Based Carrier <br />& Third-Party Logistics
               </h1>
               <div class="btns-group mt-4">
                 <button type="button" class="btn btn-primary btn-lg">
@@ -43,7 +43,7 @@ export default function Main() {
                 About RRA Group
               </h2>
               <p class="text-white">
-                Since2013, RRA Group has been at the forefront of the logistics
+                Since 2013, RRA Group has been at the forefront of the logistics
                 industry, earning anexcellent safety rating and a reputation for
                 impeccable delivery timings.
               </p>
