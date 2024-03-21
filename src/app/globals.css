@@ -166,10 +166,9 @@
       margin-bottom: 10px;
   }
 }
-
 body{
-  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -819,7 +818,7 @@ body .who-we-are-group .btn {
   content: "%";
 }
 .who-we-are-group {
-  background-image: url(/images/who-we-are-group.png);
+  background-image: url(/images/who-we-are-group.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -1050,3 +1049,25 @@ body .cus-joim-our-team .btn {
   flex-wrap: wrap;
 }
 /* Contact Us Page Css Ends */
+
+/* RRA Group Companies Css Start */
+.cus-rra-group-companies .oragne-gradient .btn {
+  min-width: auto;
+  padding: 0;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+  color: var(--secondary);
+  font-size: 18px;
+}
+body .cus-rra-group-companies .oragne-gradient .btn svg path {
+  fill: var(--secondary);
+}
+body .cus-rra-group-companies .oragne-gradient .btn:hover svg {
+  -moz-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+}
+/* RRA Group Companies Css Ends */
