@@ -8,7 +8,6 @@ import Header from './Header/header';
 import Footer from './Footer/footer';
 import Main from './Main/main';
 import { GoogleAnalytics } from '@next/third-parties/google'
-// Assuming `RootLayout` is defined in `layout.js`
 
 export default function Home() {
   return (
