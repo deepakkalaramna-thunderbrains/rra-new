@@ -5,7 +5,7 @@ import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link'
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
-import "./faq"
+// import "./faq"
 
 
 
