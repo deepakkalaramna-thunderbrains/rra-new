@@ -23,7 +23,7 @@ $('.counter').each(function() {
             });
         });
 
-jQuery(document).ready(function ($) {
+// jQuery(document).ready(function ($) {
 	    $('.hero').slick({
             dots: true,
             infinite: true,
@@ -69,4 +69,4 @@ jQuery(document).ready(function ($) {
 		        }
 			]
         });
-    });
+    // });
