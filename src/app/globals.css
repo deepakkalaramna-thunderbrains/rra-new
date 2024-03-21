@@ -798,7 +798,7 @@ body .enquiry-form .btn:active:focus {
 
 /* Mixed Css Start */
 .cus-about-rra-group{
-  background-image: url(/images/about-rra.jpg);
+  background-image: url(/images/about-rra.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -818,7 +818,7 @@ body .who-we-are-group .btn {
   content: "%";
 }
 .who-we-are-group {
-  background-image: url(/images/who-we-are-group.jpg);
+  background-image: url(/images/who-we-are-group.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;

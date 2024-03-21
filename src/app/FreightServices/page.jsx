@@ -5,82 +5,82 @@ import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link'
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
-import useMountEffect from "./faq"; // Path to your custom hook
-import jQuery from "jquery";
-import $ from "jquery";
-import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import "../../../node_modules/slick-carousel/slick/slick";
+// import useMountEffect from "./faq"; // Path to your custom hook
+// import jQuery from "jquery";
+// import $ from "jquery";
+// import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle";
+// import "../../../node_modules/slick-carousel/slick/slick";
 
 
 
 function FreightServices() {
-    useMountEffect(() => {
-        $(".counter").each(function () {
-          var $this = $(this),
-            countTo = $this.attr("data-count");
-          $({ countNum: $this.text() }).animate(
-            {
-              countNum: countTo,
-            },
-            {
-              duration: 2000,
-              easing: "linear",
-              step: function () {
-                $this.text(Math.floor(this.countNum));
-              },
-              complete: function () {
-                $this.text(this.countNum);
-              },
-            }
-          );
-        });
+    // useMountEffect(() => {
+    //     $(".counter").each(function () {
+    //       var $this = $(this),
+    //         countTo = $this.attr("data-count");
+    //       $({ countNum: $this.text() }).animate(
+    //         {
+    //           countNum: countTo,
+    //         },
+    //         {
+    //           duration: 2000,
+    //           easing: "linear",
+    //           step: function () {
+    //             $this.text(Math.floor(this.countNum));
+    //           },
+    //           complete: function () {
+    //             $this.text(this.countNum);
+    //           },
+    //         }
+    //       );
+    //     });
     
-        $(".hero").slick({
-          dots: true,
-          infinite: true,
-          speed: 500,
-          fade: true,
-          cssEase: "linear",
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 8000,
-          draggable: true,
-          arrows: false,
-          responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-              },
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                draggable: true,
-              },
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                draggable: true,
-                slidesToScroll: 1,
-              },
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                draggable: true,
-                slidesToScroll: 1,
-              },
-            },
-          ],
-        });
-      });
+    //     $(".hero").slick({
+    //       dots: true,
+    //       infinite: true,
+    //       speed: 500,
+    //       fade: true,
+    //       cssEase: "linear",
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //       autoplay: true,
+    //       autoplaySpeed: 8000,
+    //       draggable: true,
+    //       arrows: false,
+    //       responsive: [
+    //         {
+    //           breakpoint: 1024,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1,
+    //             infinite: true,
+    //           },
+    //         },
+    //         {
+    //           breakpoint: 768,
+    //           settings: {
+    //             draggable: true,
+    //           },
+    //         },
+    //         {
+    //           breakpoint: 600,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             draggable: true,
+    //             slidesToScroll: 1,
+    //           },
+    //         },
+    //         {
+    //           breakpoint: 480,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             draggable: true,
+    //             slidesToScroll: 1,
+    //           },
+    //         },
+    //       ],
+    //     });
+    //   });
     return (
         <div>
 
@@ -92,7 +92,7 @@ function FreightServices() {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
-                            <img class="w-100 img-fluid cover" src="images/hero-freight-forwarding.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="images/hero-freight-forwarding.png" alt="" />
                             <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Forwarding</h1>
                         </div>
                     </div>

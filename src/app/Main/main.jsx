@@ -2,7 +2,7 @@
 import "../globals.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
-import './index'
+// import './index'
 
 export default function Main() {
   const counters = {
@@ -16,7 +16,7 @@ export default function Main() {
       <section class="position-relative cus-banner overflow-hidden">
         <div class="hero" data-arrows="true" data-autoplay="true">
           <div class="hero-slide text-center">
-            <img alt="" class="img-fluid cover" src="images/slider-01.jpeg" />
+            <img alt="" class="img-fluid cover" src="images/slider-01.png" />
             <div class="header-content text-white position-absolute slide-content col-lg-12">
               <h1 class="p-0 m-0 text-white text-uppercase">
                 Asset - Based Carrier <br />& Third-Party Logistics
@@ -117,7 +117,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/service-01.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -134,7 +134,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/brokerage.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -151,7 +151,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/freight-forwarding.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -170,7 +170,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/dedicated.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -187,7 +187,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/intermodal.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -204,7 +204,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.jpg"
+                    src="images/warehousing.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -567,7 +567,7 @@ export default function Main() {
             <div class="col-md-6 p-0">
               <div class="position-relative h-100 cus-addresses-sec">
                 <div class="w-100 h-100">
-                  <img class="img-fluid h-100 map-img" src="images/map.jpg" />
+                  <img class="img-fluid h-100 map-img" src="images/map.png" />
                 </div>
                 <div class="map-addresses">
                   <div class="adresses-list">
