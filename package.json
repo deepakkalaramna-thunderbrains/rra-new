@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "genetate": "next build && next export"
+    "generate": "next build && next export"
   },
   "dependencies": {
     "@next/third-parties": "^14.1.3",
