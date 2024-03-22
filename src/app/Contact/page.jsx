@@ -102,7 +102,7 @@ const ContactUs = () => {
               <div class="w-100 h-100 position-relative">
                 <img
                   class="w-100 img-fluid cover"
-                  src="images/hero-contact-us.png"
+                  src="/images/hero-contact-us.png"
                   alt=""
                 />
                 <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
