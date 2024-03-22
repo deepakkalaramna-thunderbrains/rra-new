@@ -1,29 +1,50 @@
-import nodeMailer from "nodemailer"
-const transporter = nodeMailer.createTransport({
-    host: "smtp.freesmtpservers.com",
-    port: 25,
-    secure: false, 
-});
-export default async function  handler(req, res) {
+
+const nodemailer = require("nodemailer");
+
+exports.handler = async (event, context) => {
     try {
-        const {name, lastName, companyName, email, telephone, message} = req.body
+        const { name, lastName, companyName, email, telephone, message } = JSON.parse(event.body);
+        console.log(name)
+        const transporter = nodemailer.createTransport({
+            host: "smtp.gmail.com",
+            port: 465,
+            secure: true, 
+            auth: {
+                user: "import@rragroup.ca",
+                pass: "lf@C5QHz8B$QL9S3"
+            }
+        });
+
+        // Send email asynchronously
         await transporter.sendMail({
-          from: 'kDeepakwebdev@gmail.com', 
-          to: 'kDeepakwebdev@gmail.com',
-          subject: 'testing',
-          html: `
-            <p>${name}</p>
-            <p>${lastName}</p>
-            <p>${companyName}</p>
-            <p>${email}</p>
-            <p>${telephone}</p>
-            <p>${message}</p>
+            from: "import@rragroup.ca",
+            to: "deepakit.k03@gmail.com",
+            subject: 'Testing',
+            html: `
+                <p>${name}</p>
+                <p>${lastName}</p>
+                <p>${companyName}</p>
+                <p>${email}</p>
+                <p>${telephone}</p>
+                <p>${message}</p>
             `
         });
+
+        console.log(name);
         console.log('Email sent successfully!');
-        return res.status(200).json({messae: "email sent successfully"})
-      } catch (error) {
+
+        return {
+            statusCode: 200,
+            body: JSON.stringify({ name, message: "Email sent successfully" })
+        };
+    } catch (error) {
         console.error('Error sending email:', error);
-        return res.status(400).json({messae: "an error occured while sending the mail"})
-      }
-}
+
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ message: "An error occurred while sending the email" })
+        };
+    }
+};
+
+

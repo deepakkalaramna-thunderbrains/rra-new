@@ -251,7 +251,7 @@ p{
 /* Buttons Design Start */
 .btn-primary {
   color: var(--white);
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
   border-color: var(--primary);
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
