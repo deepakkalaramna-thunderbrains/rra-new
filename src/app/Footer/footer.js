@@ -11,7 +11,7 @@ return(<footer className="bg-secondary-dark pt-5">
   <div className="row pt-4 pb-5">
     <div className="col-lg-4 col-md-12">
       <div className="d-flex footer-logo">
-        <img src="images/footer-logo.svg" alt="" />
+        <img src="/images/footer-logo.svg" alt="" />
       </div>
     </div>
     <div className="col-lg-4 col-md-12">

@@ -16,7 +16,7 @@ export default function Main() {
       <section class="position-relative cus-banner overflow-hidden">
         <div class="hero" data-arrows="true" data-autoplay="true">
           <div class="hero-slide text-center">
-            <img alt="" class="img-fluid cover" src="images/slider-01.png" />
+            <img alt="" class="img-fluid cover" src="/images/slider-01.png" />
             <div class="header-content text-white position-absolute slide-content col-lg-12">
               <h1 class="p-0 m-0 text-white text-uppercase">
                 Asset - Based Carrier <br />& Third-Party Logistics
@@ -117,7 +117,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/service-01.png"
+                    src="/images/service-01.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -134,7 +134,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/brokerage.png"
+                    src="/images/brokerage.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -151,7 +151,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/freight-forwarding.png"
+                    src="/images/freight-forwarding.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -170,7 +170,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/dedicated.png"
+                    src="/images/dedicated.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -187,7 +187,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/intermodal.png"
+                    src="/images/intermodal.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -204,7 +204,7 @@ export default function Main() {
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
-                    src="images/warehousing.png"
+                    src="/images/warehousing.png"
                     alt=""
                   />
                   <div class="service-grid-con">
@@ -228,7 +228,7 @@ export default function Main() {
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-7 p-0 who-we-track">
-              <img class="img-fluid" src="images/who-we-track.png" alt="" />
+              <img class="img-fluid" src="/images/who-we-track.png" alt="" />
             </div>
             <div class="col-md-5 position-relative ms-auto">
               <h2 class="mt-5 mb-3 text-uppercase text-white">WHY RRA GROUP</h2>
@@ -273,7 +273,7 @@ export default function Main() {
                 </div>
                 <div class="col-md-4">
                     <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="images/company-logo.png" alt=""></img>
+                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Ltd</h4>
                         <button type="submit" class="btn btn-primary btn-lg">
                             <span class="d-flex align-items-center justify-content-center">
@@ -287,7 +287,7 @@ export default function Main() {
                 </div>
                 <div class="col-md-4">
                     <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="images/company-logo.png" alt=""></img>
+                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Inc.</h4>
                         <button type="submit" class="btn btn-primary btn-lg">
                             <span class="d-flex align-items-center justify-content-center">
@@ -301,7 +301,7 @@ export default function Main() {
                 </div>
                 <div class="col-md-4">
                     <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="images/company-logo.png" alt=""></img>
+                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">HGA Logistics Inc.</h4>
                         <button type="submit" class="btn btn-primary btn-lg">
                             <span class="d-flex align-items-center justify-content-center">
@@ -497,7 +497,7 @@ export default function Main() {
             <div class="col-md-9 mx-auto">
               <img
                 class="w-100 img-fluid mt-5"
-                src="images/join-track.png"
+                src="/images/join-track.png"
                 alt=""
               />
             </div>
@@ -567,7 +567,7 @@ export default function Main() {
             <div class="col-md-6 p-0">
               <div class="position-relative h-100 cus-addresses-sec">
                 <div class="w-100 h-100">
-                  <img class="img-fluid h-100 map-img" src="images/map.png" />
+                  <img class="img-fluid h-100 map-img" src="/images/map.png" />
                 </div>
                 <div class="map-addresses">
                   <div class="adresses-list">
@@ -767,34 +767,34 @@ export default function Main() {
             <div class="col-md-12">
               <ul class="p-0 pt-4 m-auto d-flex align-items-center justify-content-center list-group list-group-horizontal flex-wrap list-unstyled">
                 <li>
-                  <img src="images/logo-01.png" />
+                  <img src="/images/logo-01.png" />
                 </li>
                 <li>
-                  <img src="images/logo-02.png" />
+                  <img src="/images/logo-02.png" />
                 </li>
                 <li>
-                  <img src="images/logo-03.png" />
+                  <img src="/images/logo-03.png" />
                 </li>
                 <li>
-                  <img src="images/logo-04.png" />
+                  <img src="/images/logo-04.png" />
                 </li>
                 <li>
-                  <img src="images/logo-05.png" />
+                  <img src="/images/logo-05.png" />
                 </li>
                 <li>
-                  <img src="images/logo-06.png" />
+                  <img src="/images/logo-06.png" />
                 </li>
                 <li>
-                  <img src="images/logo-07.png" />
+                  <img src="/images/logo-07.png" />
                 </li>
                 <li>
-                  <img src="images/logo-08.png" />
+                  <img src="/images/logo-08.png" />
                 </li>
                 <li>
-                  <img src="images/logo-09.png" />
+                  <img src="/images/logo-09.png" />
                 </li>
                 <li>
-                  <img src="images/logo-10.png" />
+                  <img src="/images/logo-10.png" />
                 </li>
               </ul>
             </div>

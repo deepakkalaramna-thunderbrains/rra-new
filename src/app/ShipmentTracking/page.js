@@ -16,7 +16,7 @@ function ShipmentTracking() {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
-                            <img class="w-100 img-fluid cover" src="images/hero-plane-trucks-are-flying.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/hero-plane-trucks-are-flying.jpg" alt="" />
                             <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function ShipmentTracking() {
                                     </button>
                                 </div>
                                 <div class="col-md-6 px-5">
-                                    <img class="w-100 img-fluid cover" src="images/digital-composite-businessman-working-map.jpg" alt="" />
+                                    <img class="w-100 img-fluid cover" src="/images/digital-composite-businessman-working-map.jpg" alt="" />
                                 </div>
                             </div>
                         </div>

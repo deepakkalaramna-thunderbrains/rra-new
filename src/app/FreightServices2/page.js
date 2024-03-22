@@ -17,7 +17,7 @@ function FreightServices2() {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
-                            <img class="w-100 img-fluid cover" src="images/hero-freight-2.png" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/hero-freight-2.png" alt="" />
                             <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ function FreightServices2() {
                         <div class="col-md-11 mx-auto pt-3">
                             <div class="row align-items-center">
                                 <div class="col-md-6 px-5">
-                                    <img class="w-100 img-fluid cover" src="images/grid-services.png" alt="" />
+                                    <img class="w-100 img-fluid cover" src="/images/grid-services.png" alt="" />
                                 </div>
                                 <div class="col-md-6 px-5">
                                     <h4 class="mb-4">Our secret ingredient? Over 13 years of freight-forwarding expertise with a flawless 100% success rate.</h4>
@@ -84,7 +84,7 @@ function FreightServices2() {
                                         <p class="text-white">RRA Group's ground freight services span North America, offering both truckload and less-than-truckload options. Our diverse fleet includes vans, reefers, flatbeds, step decks, heaters, and temperature-controlled units, ensuring safe and efficient transportation for your cargo.</p>
                                     </div>
                                     <div class="vertical-tab-img">
-                                        <img class="w-100 h-100 img-fluid cover" src="images/shipment-tracking1.png" alt="" />
+                                        <img class="w-100 h-100 img-fluid cover" src="/images/shipment-tracking1.png" alt="" />
                                     </div>
                                 </div>
                             </section>
@@ -98,7 +98,7 @@ function FreightServices2() {
                                         <p class="text-white">We also offer reefer containers for temperature-sensitive goods and specialized ocean freight services for oversized or heavy cargo like machinery or vehicles.</p>
                                     </div>
                                     <div class="vertical-tab-img">
-                                        <img class="w-100 h-100 img-fluid cover" src="images/shipment-tracking2.png" alt="" />
+                                        <img class="w-100 h-100 img-fluid cover" src="/images/shipment-tracking2.png" alt="" />
                                     </div>
                                 </div>
                             </section>
@@ -112,7 +112,7 @@ function FreightServices2() {
                                         <p class="text-white">We also offer reefer containers for temperature-sensitive goods and specialized ocean freight services for oversized or heavy cargo like machinery or vehicles.</p>
                                     </div>
                                     <div class="vertical-tab-img">
-                                        <img class="w-100 h-100 img-fluid cover" src="images/shipment-tracking3.png" alt="" />
+                                        <img class="w-100 h-100 img-fluid cover" src="/images/shipment-tracking3.png" alt="" />
                                     </div>
                                 </div>
                             </section>
@@ -125,7 +125,7 @@ function FreightServices2() {
                                         <p class="text-white">Choose RRA Group for logistics that make sense - no jargon, just results.</p>
                                     </div>
                                     <div class="vertical-tab-img">
-                                        <img class="w-100 h-100 img-fluid cover" src="images/shipment-tracking4.png" alt="" />
+                                        <img class="w-100 h-100 img-fluid cover" src="/images/shipment-tracking4.png" alt="" />
                                     </div>
                                 </div>
                             </section>
@@ -147,7 +147,7 @@ function FreightServices2() {
                                         <p class="m-0 text-white">RRA supply management chains are increasingly focused on sustainable shipping practices. We offer options for eco-friendly shipping, such as utilizing cleaner vessel technologies or optimizing routes to reduce carbon emissions</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img class="d-flex align-items-center justify-content-center h-100 img-fluid contain" src="images/icon-sustainable-practice.png" alt="" />
+                                        <img class="d-flex align-items-center justify-content-center h-100 img-fluid contain" src="/images/icon-sustainable-practice.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ function FreightServices2() {
                                         <p class="m-0 text-white">Safety is our priority. Our trained personnel adhere to strict safety regulations.</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <img class="d-flex align-items-center justify-content-center h-100 img-fluid contain" src="images/check.png" alt="" />
+                                        <img class="d-flex align-items-center justify-content-center h-100 img-fluid contain" src="/images/check.png" alt="" />
                                     </div>
                                 </div>
                             </div>

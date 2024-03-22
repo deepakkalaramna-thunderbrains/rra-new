@@ -14,7 +14,7 @@ function About() {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
-                            <img class="w-100 img-fluid cover" src="images/hero-about-us.jpg" height="500" width="500" />
+                            <img class="w-100 img-fluid cover" src="/images/hero-about-us.jpg" height="500" width="500" />
                             <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white font-900">About Us</h1>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function About() {
                         <div class="col-md-11 mx-auto pt-3">
                             <div class="row align-items-center">
                                 <div class="col-md-6 px-5">
-                                    <img class="w-100 img-fluid cover" src="images/plane-trucks-are-flying.jpg" alt="" />
+                                    <img class="w-100 img-fluid cover" src="/images/plane-trucks-are-flying.jpg" alt="" />
                                 </div>
                                 <div class="col-md-6 px-5">
                                     <h3>Founded by Gursewak Singh,</h3>
@@ -58,7 +58,7 @@ function About() {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="w-100 h-100 position-relative ">
-                                <img class="w-100 img-fluid cover" src="images/our-mission.jpg" width="500" height="500" alt="" />
+                                <img class="w-100 img-fluid cover" src="/images/our-mission.jpg" width="500" height="500" alt="" />
                                 <div class="w-100 position-absolute top-50 start-50 translate-middle py-5 px-2 text-center">
                                     <h2 class="m-0 text-uppercase text-white">About Us</h2>
                                     <p class="m-0 pt-4 text-white">Our mission is simple: wholeheartedly serving our customers by simplifying modern logistics <br /> complexities, ensuring timely deliveries, and promoting sustainability.</p>

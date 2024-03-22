@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-// output: 'export',
-const nextConfig = {
-    distDir: 'dist',
-    trailingSlash: true
-}
+// When running build
+// const nextConfig = {
+//     output: 'export',
+//     distDir: 'dist',
+//     trailingSlash: true,
+//     assetPrefix:"https://www.rragroup.ca/"
+// }
+const nextConfig = {}
 export default nextConfig;
