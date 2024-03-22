@@ -1,8 +1,0 @@
-"use strict";(()=>{var e={};e.id=91,e.ids=[91],e.modules={145:e=>{e.exports=require("next/dist/compiled/next-server/pages-api.runtime.prod.js")},6249:(e,t)=>{Object.defineProperty(t,"l",{enumerable:!0,get:function(){return function e(t,r){return r in t?t[r]:"then"in t&&"function"==typeof t.then?t.then(t=>e(t,r)):"function"==typeof t&&"default"===r?t:void 0}}})},2288:(e,t,r)=>{r.r(t),r.d(t,{config:()=>p,default:()=>c,routeModule:()=>d});var n={};r.r(n),r.d(n,{default:()=>l});var o=r(1802),a=r(7153),s=r(6249);let i=require("nodemailer"),u=r.n(i)().createTransport({host:"smtp.freesmtpservers.com",port:25,secure:!1});async function l(e,t){try{let{name:r,lastName:n,companyName:o,email:a,telephone:s,message:i}=e.body;return await u.sendMail({from:"kDeepakwebdev@gmail.com",to:"kDeepakwebdev@gmail.com",subject:"testing",html:`
-            <p>${r}</p>
-            <p>${n}</p>
-            <p>${o}</p>
-            <p>${a}</p>
-            <p>${s}</p>
-            <p>${i}</p>
-            `}),console.log("Email sent successfully!"),t.status(200).json({messae:"email sent successfully"})}catch(e){return console.error("Error sending email:",e),t.status(400).json({messae:"an error occured while sending the mail"})}}let c=(0,s.l)(n,"default"),p=(0,s.l)(n,"config"),d=new o.PagesAPIRouteModule({definition:{kind:a.x.PAGES_API,page:"/api/contact",pathname:"/api/contact",bundlePath:"",filename:""},userland:n})},7153:(e,t)=>{var r;Object.defineProperty(t,"x",{enumerable:!0,get:function(){return r}}),function(e){e.PAGES="PAGES",e.PAGES_API="PAGES_API",e.APP_PAGE="APP_PAGE",e.APP_ROUTE="APP_ROUTE"}(r||(r={}))},1802:(e,t,r)=>{e.exports=r(145)}};var t=require("../../webpack-api-runtime.js");t.C(e);var r=t(t.s=2288);module.exports=r})();
