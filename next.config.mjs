@@ -3,8 +3,7 @@ const nextConfig = {
     reactStrictMode: true,
     output: 'export',
     distDir: 'dist',
-    trailingSlash: true,
-    assetPrefix: '.',
+    trailingSlash: true
 }
-  
-module.exports = nextConfig;
+export default nextConfig;
+// module.exports = nextConfig;
