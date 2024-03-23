@@ -5,7 +5,7 @@ import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link'
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
-import faq from './faq'
+import './faq'
 // import useMountEffect from "./faq"; // Path to your custom hook
 // import jQuery from "jquery";
 // import $ from "jquery";
@@ -15,7 +15,7 @@ import faq from './faq'
 
 
 function FreightServices() {
-    faq()
+   
     return (
         <div>
 

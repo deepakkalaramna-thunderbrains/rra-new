@@ -2,10 +2,9 @@
 import "../globals.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
-import index from './index'
+import './index'
 
 export default function Main() {
-  index()
   const counters = {
     satisfiedCustomers: 800,
     yearsOfExperience: 10,
