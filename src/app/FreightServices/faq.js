@@ -1,3 +1,13 @@
+'use client'
+import jQuery from "jquery";
+import $ from "jquery";
+import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "../../../node_modules/slick-carousel/slick/slick";
+import { script }  from 'next/script';
+
+
+
+
 function  faq(){
 $(".counter").each(function () {
           var $this = $(this),
