@@ -6,8 +6,7 @@ import "../../../node_modules/slick-carousel/slick/slick";
 import { script }  from 'next/script';
 
 
-
-if (process.browser) {
+function index(){
         $(".counter").each(function () {  
           var $this = $(this),
             countTo = $this.attr("data-count");
@@ -74,7 +73,7 @@ if (process.browser) {
             },
           ],
         });
-}
+    }
 
 
 // });

@@ -1,4 +1,4 @@
-
+function  faq(){
 $(".counter").each(function () {
           var $this = $(this),
             countTo = $this.attr("data-count");
@@ -63,4 +63,5 @@ $(".counter").each(function () {
               },
             },
           ],
-        });
+        });}
+export default faq
