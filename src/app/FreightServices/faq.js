@@ -9,25 +9,25 @@ import { script }  from 'next/script';
 
 
 function  faq(){
-$(".counter").each(function () {
-          var $this = $(this),
-            countTo = $this.attr("data-count");
-          $({ countNum: $this.text() }).animate(
-            {
-              countNum: countTo,
-            },
-            {
-              duration: 2000,
-              easing: "linear",
-              step: function () {
-                $this.text(Math.floor(this.countNum));
-              },
-              complete: function () {
-                $this.text(this.countNum);
-              },
-            }
-          );
-        });
+// $(".counter").each(function () {
+//           var $this = $(this),
+//             countTo = $this.attr("data-count");
+//           $({ countNum: $this.text() }).animate(
+//             {
+//               countNum: countTo,
+//             },
+//             {
+//               duration: 2000,
+//               easing: "linear",
+//               step: function () {
+//                 $this.text(Math.floor(this.countNum));
+//               },
+//               complete: function () {
+//                 $this.text(this.countNum);
+//               },
+//             }
+//           );
+//         });
     
         $(".hero").slick({
           dots: true,
