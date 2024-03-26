@@ -11,7 +11,7 @@ export default function Footer(){
             <div className="row py-4">
                 <div className="col-md-3">
                     <div className="d-flex footer-logo">
-                        <img src="images/footer-logo.svg" alt="" />
+                        <img src="/images/footer-logo.svg" alt="" />
                     </div>
                 </div>
                 <div className="col-md-9">
@@ -20,16 +20,16 @@ export default function Footer(){
                             <h6 className="mb-4">Explore</h6>
                             <ul className="list-unstyled m-0">
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About Us</a>
+                                    <a href="/About">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Warehousing</a>
+                                    <a href="/Warehousing">Warehousing</a>
                                 </li>
                                 <li>
-                                    <a href="#">Trade Compliance Advisory</a>
+                                    <a href="/TradeComplianceAdvisory">Trade Compliance Advisory</a>
                                 </li>
                             </ul>
                         </div>
@@ -42,16 +42,16 @@ export default function Footer(){
                             </h6>
                             <ul className="list-unstyled m-0">
                                 <li>
-                                    <a href="#">Canada Customs</a>
+                                    <a href="/Canada-Customs">Canada Customs</a>
                                 </li>
                                 <li>
-                                    <a href="#">US Customs</a>
+                                    <a href="/USCustoms">US Customs</a>
                                 </li>
                                 <li>
-                                    <a href="#">Duty Drawbacks</a>
+                                    <a href="/Duty-Drawbacks">Duty Drawbacks</a>
                                 </li>
                                 <li>
-                                    <a href="#">N.R.I Program</a>
+                                    <a href="/Nri">N.R.I Program</a>
                                 </li>
                             </ul>
                         </div>
@@ -64,16 +64,16 @@ export default function Footer(){
                             </h6>
                             <ul className="list-unstyled m-0">
                                 <li>
-                                    <a href="#">Freight Services</a>
+                                    <a href="/FreightServices">Freight Services</a>
                                 </li>
                                 <li>
                                     <a href="#">Shipment Tracking</a>
                                 </li>
                                 <li>
-                                    <a href="#">No Mini-Max Weight Limit</a>
+                                    <a href="/NoMiniMax">No Mini-Max Weight Limit</a>
                                 </li>
                                 <li>
-                                    <a href="#">Trade Show Freight</a>
+                                    <a href="/TradeShowFreight">Trade Show Freight</a>
                                 </li>
                             </ul>
                         </div>
@@ -150,7 +150,7 @@ export default function Footer(){
                 <div className="col-md-12">
                     <div className="d-flex flex-nowrap align-items-center justify-content-between cus-copy-right">
                         <div className="d-flex flex-row align-items-center">
-                            <p className="m-0 text-white">ⓒ 2023 -- RRA Group</p>
+                            <p className="m-0 text-white">ⓒ {currentYear} -- RRA Group</p>
                             <ul className="d-flex flex-row ms-4 mb-0 p-0 list-group">
                                 <li className="nav-item m-0">
                                     <a className="nav-link text-white" href="#">Privacy Policy</a>

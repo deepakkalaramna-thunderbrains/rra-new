@@ -2,6 +2,10 @@
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link';
+import '../../../node_modules/bootstrap/dist/js/bootstrap.js'
+
+
+
 
 
 export default function Header() {
@@ -82,7 +86,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/NoMiniMax">
                                             NO MINI-MAX WEIGHT LIMIT
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -90,7 +94,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/TradeShowFreight">
                                             TRADE SHOW FREIGHT
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -103,7 +107,7 @@ export default function Header() {
                                 <Link className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Custom Brokerage</Link>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/Canada-Customs">
                                             Canada Customs
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -111,7 +115,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/USCustoms">
                                             Us Customs
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -119,7 +123,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/Duty-Drawbacks">
                                             DUTY DRAWBACKS
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -127,7 +131,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="dropdown-item" href="#">
+                                        <Link className="dropdown-item" href="/Nri">
                                             N.R.I Program
                                             <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
                                                 <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
@@ -137,10 +141,10 @@ export default function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Warehousing</Link>
+                                <Link className="nav-link" href="/Warehousing">Warehousing</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">TRADE COMPLIANCE ADVISORY</Link>
+                                <Link className="nav-link" href="/TradeComplianceAdvisory">TRADE COMPLIANCE ADVISORY</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href="/Contact">Contact Us</Link>
