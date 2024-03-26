@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^rragroup\.ca$ [NC]
+RewriteRule ^(.*)$ https://www.rragroup.ca/$1 [R=301,L]
+
+# Existing rules to force HTTPS
+RewriteCond %{HTTP_HOST} rragroup\.ca [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.rragroup.ca/$1 [R,L]
