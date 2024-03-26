@@ -95,16 +95,16 @@ const ContactUs = () => {
     <>
       <>
         <Header />
-        <section class="cus-hero-sec">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="w-100 h-100 position-relative">
+        <section className="cus-hero-sec">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="w-100 h-100 position-relative">
                 <img
-                  class="w-100 img-fluid cover"
+                  className="w-100 img-fluid cover"
                   src="/images/hero-contact-us.png"
                   alt=""
                 />
-                <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
+                <h1 className="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
                   Contact Us
                 </h1>
               </div>
@@ -112,17 +112,17 @@ const ContactUs = () => {
           </div>
         </section>
 
-        <section class="cus-form-enq cus-contact-form">
-          <div class="container-fluid p-0">
-            <div class="row m-0">
-              <div class="col-md-6 p-0 bg-grey-light">
-                <div class="position-relative h-100 cus-addresses-sec">
-                  <div class="map-addresses">
-                    <h4 class="w-100 mb-0 text-left">
+        <section className="cus-form-enq cus-contact-form">
+          <div className="container-fluid p-0">
+            <div className="row m-0">
+              <div className="col-md-6 p-0 bg-grey-light">
+                <div className="position-relative h-100 cus-addresses-sec">
+                  <div className="map-addresses">
+                    <h4 className="w-100 mb-0 text-left">
                       We are available 24/7 for you.
                     </h4>
-                    <div class="adresses-list">
-                      <ul class="list-unstyled m-0">
+                    <div className="adresses-list">
+                      <ul className="list-unstyled m-0">
                         <li>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -155,33 +155,33 @@ const ContactUs = () => {
                               </clipPath>
                             </defs>
                           </svg>
-                          <h6 class="m-0 ps-3">Canada (Head Office)</h6>
+                          <h6 className="m-0 ps-3">Canada (Head Office)</h6>
                         </li>
                         <li>
-                          <p class="mb-1 small">Contact No:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Contact No:</p>
+                          <p className="m-0">
                             <a href="tel:8883168287">(+1)888-316-8287</a>,
                           </p>
                         </li>
                         <li>
-                          <p class="mb-1 small">Email ID:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Email ID:</p>
+                          <p className="m-0">
                             <a href="mailto:rragroupcanada@gmail.com">
                               import@rragroup.ca
                             </a>
                           </p>
                         </li>
                         <li>
-                          <p class="mb-1 small">Address:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Address:</p>
+                          <p className="m-0">
                             204 - 2060 MCCALLUM ROAD ABBOTSFORD BC V2S 3N4
                             CANADA
                           </p>
                         </li>
                       </ul>
                     </div>
-                    <div class="adresses-list">
-                      <ul class="list-unstyled m-0">
+                    <div className="adresses-list">
+                      <ul className="list-unstyled m-0">
                         <li>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -272,25 +272,25 @@ const ContactUs = () => {
                               </clipPath>
                             </defs>
                           </svg>
-                          <h6 class="m-0 ps-3">United States</h6>
+                          <h6 className="m-0 ps-3">United States</h6>
                         </li>
                         <li>
-                          <p class="mb-1 small">Contact No:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Contact No:</p>
+                          <p className="m-0">
                             <a href="tel:(+1)8883168287">(+1)888-316-8287</a>,
                           </p>
                         </li>
                         <li>
-                          <p class="mb-1 small">Email ID:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Email ID:</p>
+                          <p className="m-0">
                             <a href="mailto:rragroupus@gmail.com">
                               import@rragroup.ca
                             </a>
                           </p>
                         </li>
                         <li>
-                          <p class="mb-1 small">Address:</p>
-                          <p class="m-0">
+                          <p className="mb-1 small">Address:</p>
+                          <p className="m-0">
                             Suite 301 - 2219 Rimland Drive Bellingham WA -
                             (Washington) 98226 USA
                           </p>
@@ -300,73 +300,73 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 p-0">
-                <div class="w-100 enquiry-form p-5">
-                  <h4 class="text-white mb-4 fw-bold">
+              <div className="col-md-6 p-0">
+                <div className="w-100 enquiry-form p-5">
+                  <h4 className="text-white mb-4 fw-bold">
                     Need to make an inquiry?
                   </h4>
                   <form onSubmit={handleSubmit}>
-                    <div class="row m-0">
-                      <div class="col-md-6 mb-2 px-1">
+                    <div className="row m-0">
+                      <div className="col-md-6 mb-2 px-1">
                         <input
                           value={formData.firstName}
                           id="firstName"
                           onChange={handleChange}
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Your Name*"
                           name="name"
                         />
                       </div>
-                      <div class="col-md-6 mb-2 px-1">
+                      <div className="col-md-6 mb-2 px-1">
                         <input
                           value={formData.lastName}
                           id="lastName"
                           onChange={handleChange}
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Last Name*"
                           name="lastName"
                         />
                       </div>
-                      <div class="col-md-12 mb-2 px-1">
+                      <div className="col-md-12 mb-2 px-1">
                         <input
                           value={formData.companyName}
                           id="companyName"
                           onChange={handleChange}
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Company Name*"
                           name="companyName"
                         />
                       </div>
-                      <div class="col-md-6 mb-2 px-1">
+                      <div className="col-md-6 mb-2 px-1">
                         <input
                           value={formData.email}
                           id="email"
                           onChange={handleChange}
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Email*"
                           name="email"
                         />
                       </div>
-                      <div class="col-md-6 mb-2 px-1">
+                      <div className="col-md-6 mb-2 px-1">
                         <input
                           value={formData.telephone}
                           id="telephone"
                           onChange={handleChange}
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Phone*"
                           name="telephone"
                         />
                       </div>
-                      <div class="col-md-12 mb-2 px-1">
-                        <h6 class="mt-4 mb-2 text-white">
+                      <div className="col-md-12 mb-2 px-1">
+                        <h6 className="mt-4 mb-2 text-white">
                           Select the subject you are interested in:
                         </h6>
-                        <select class="w-100">
+                        <select className="w-100">
                           <option>Select</option>
                           <option>Select 1</option>
                           <option>Select 2</option>
@@ -374,21 +374,21 @@ const ContactUs = () => {
                           <option>Select 4</option>
                         </select>
                       </div>
-                      <div class="col-md-12 mb-2 px-1">
-                        <h6 class="mt-4 mb-2 text-white">
+                      <div className="col-md-12 mb-2 px-1">
+                        <h6 className="mt-4 mb-2 text-white">
                           How can we help you
                         </h6>
                         <textarea
                           value={formData.message}
                           id="message"
                           onChange={handleChange}
-                          class="w-100"
+                          className="w-100"
                           placeholder="Your Message"
                           name="yourMessage"
                         ></textarea>
                       </div>
 
-                      <div class="col-12" style={{ background: "white" }}>
+                      <div className="col-12" style={{ background: "white" }}>
                         {(formData.messages["email"] ||
                           formData.messages["message"] ||
                           formData.messages["telephone"] ||
@@ -432,7 +432,7 @@ const ContactUs = () => {
                         )}
                       </div>
 
-                      <div class="col-md-12 mt-2 px-1">
+                      <div className="col-md-12 mt-2 px-1">
                         <button
                           type="submit"
                           className="btn btn-primary btn-lg"
@@ -440,7 +440,7 @@ const ContactUs = () => {
                           <span className="d-flex align-items-center justify-content-center">
                             Send
                             <svg
-                              class="ms-3"
+                              className="ms-3"
                               xmlns="http://www.w3.org/2000/svg"
                               width="24"
                               height="24"

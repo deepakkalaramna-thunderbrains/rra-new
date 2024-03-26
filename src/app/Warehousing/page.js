@@ -7,16 +7,16 @@ function Warehousing() {
       <Header />
 
       {/* <!-- Hero Section Start --> */}
-      <section class="cus-hero-sec">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="w-100 h-100 position-relative">
+      <section className="cus-hero-sec">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="w-100 h-100 position-relative">
               <img
-                class="w-100 img-fluid cover"
+                className="w-100 img-fluid cover"
                 src="/images/hero-WAREHOUSING.jpg"
                 alt=""
               />
-              <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
+              <h1 className="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
                 WAREHOUSING
               </h1>
             </div>
@@ -26,13 +26,13 @@ function Warehousing() {
       {/* <!-- Hero Section Ends -->
 
     <!-- Contents Section Start --> */}
-      <section class="py-5 cus-experience-rra">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-11 mx-auto py-5">
-              <div class="row align-items-center">
-                <div class="col-md-6 px-5">
-                  <h2 class="mb-3 text-uppercase">Efficiency and Security</h2>
+      <section className="py-5 cus-experience-rra">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-11 mx-auto py-5">
+              <div className="row align-items-center">
+                <div className="col-md-6 px-5">
+                  <h2 className="mb-3 text-uppercase">Efficiency and Security</h2>
                   <p>
                     In today's E-commerce driven landscape, many businesses lack
                     physical storage space, leading to delays and customer
@@ -45,11 +45,11 @@ function Warehousing() {
                     handling. Choosing us means cost-effective, secure, and
                     operationally efficient storage solutions.
                   </p>
-                  <button type="submit" class="btn btn-primary btn-lg mt-4">
-                    <span class="d-flex align-items-center justify-content-center">
+                  <button type="submit" className="btn btn-primary btn-lg mt-4">
+                    <span className="d-flex align-items-center justify-content-center">
                       Contact Us
                       <svg
-                        class="ms-3"
+                        className="ms-3"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
@@ -64,9 +64,9 @@ function Warehousing() {
                     </span>
                   </button>
                 </div>
-                <div class="col-md-6 px-5">
+                <div className="col-md-6 px-5">
                   <img
-                    class="w-100 img-fluid cover"
+                    className="w-100 img-fluid cover"
                     src="/images/efficiency-and-security.jpg"
                     alt=""
                   />
@@ -79,36 +79,36 @@ function Warehousing() {
       {/* <!-- Contents Section Ends -->
 
     <!-- Contents Section Start --> */}
-      <section class="py-5 mb-5 cus-various-industries">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 py-5">
-              <h2 class="m-0 text-uppercase text-white text-center">
+      <section className="py-5 mb-5 cus-various-industries">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 py-5">
+              <h2 className="m-0 text-uppercase text-white text-center">
                 We cater to various industries including
               </h2>
-              <div class="row">
-                <div class="col-md-8 mx-auto">
-                  <ul class="list-unstyled m-auto py-4 my-4">
+              <div className="row">
+                <div className="col-md-8 mx-auto">
+                  <ul className="list-unstyled m-auto py-4 my-4">
                     <li>
-                      <h5 class="m-0 text-white">Manufacturing</h5>
+                      <h5 className="m-0 text-white">Manufacturing</h5>
                     </li>
                     <li>
-                      <h5 class="m-0 text-white">Retail</h5>
+                      <h5 className="m-0 text-white">Retail</h5>
                     </li>
                     <li>
-                      <h5 class="m-0 text-white">Automotive</h5>
+                      <h5 className="m-0 text-white">Automotive</h5>
                     </li>
                     <li>
-                      <h5 class="m-0 text-white">Food & Beverages</h5>
+                      <h5 className="m-0 text-white">Food & Beverages</h5>
                     </li>
                     <li>
-                      <h5 class="m-0 text-white">Construction</h5>
+                      <h5 className="m-0 text-white">Construction</h5>
                     </li>
                     <li>
-                      <h5 class="m-0 text-white">Healthcare</h5>
+                      <h5 className="m-0 text-white">Healthcare</h5>
                     </li>
                   </ul>
-                  <p class="m-0 text-white text-center">
+                  <p className="m-0 text-white text-center">
                     Our flexible solutions accommodate every product,
                     safeguarding your inventory with cutting-edge technology and
                     robust security measures.
@@ -123,12 +123,12 @@ function Warehousing() {
    
 
     <!-- What We Offer Grid Section Start --> */}
-      <section class="pt-5 cus-experience-rra">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+      <section className="pt-5 cus-experience-rra">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -150,18 +150,18 @@ function Warehousing() {
                     />
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">
+                <h4 className="text-white text-uppercase my-4">
                   LOCATION ADVANTAGE
                 </h4>
-                <p class="text-white mb-0">
+                <p className="text-white mb-0">
                   Have proximity to transportation hubs for efficient
                   distribution.
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -194,18 +194,18 @@ function Warehousing() {
                     </defs>
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">
+                <h4 className="text-white text-uppercase my-4">
                   ADVANCED TECHNOLOGY
                 </h4>
-                <p class="text-white mb-0">
+                <p className="text-white mb-0">
                   Use of advanced warehouse management systems for real-time
                   visibility.
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -227,8 +227,8 @@ function Warehousing() {
                     />
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">CUSTOMISATION</h4>
-                <p class="text-white mb-0">
+                <h4 className="text-white text-uppercase my-4">CUSTOMISATION</h4>
+                <p className="text-white mb-0">
                   Use tailored solutions to meet unique storage and handling
                   needs.
                 </p>
@@ -240,20 +240,20 @@ function Warehousing() {
       {/* <!-- What We Offer Grid Section Ends -->
 
     <!-- Frequently Asked Questions Start --> */}
-      <section class="py-5 mt-5 cus-faq-sec">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="text-center text-uppercase">
+      <section className="py-5 mt-5 cus-faq-sec">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="text-center text-uppercase">
                 Frequently Asked Questions
               </h2>
             </div>
-            <div class="col-md-9 mx-auto my-5">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
+            <div className="col-md-9 mx-auto my-5">
+              <div className="accordion accordion-flush" id="accordionFlushExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="flush-headingOne">
                     <button
-                      class="accordion-button"
+                      className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -266,11 +266,11 @@ function Warehousing() {
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse show"
+                    className="accordion-collapse collapse show"
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Absolutely. We offer comprehensive warehouse storage and
                         distribution solutions. Our secure facilities, efficient
@@ -280,10 +280,10 @@ function Warehousing() {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="flush-headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -295,11 +295,11 @@ function Warehousing() {
                   </h2>
                   <div
                     id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
@@ -310,10 +310,10 @@ function Warehousing() {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="flush-headingThree">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -325,11 +325,11 @@ function Warehousing() {
                   </h2>
                   <div
                     id="flush-collapseThree"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the

@@ -12,19 +12,19 @@ export default function Main() {
   return (
     <>
       {/* <!-- Slider Section Start --> */}
-      <section class="position-relative cus-banner overflow-hidden">
-        <div class="hero" data-arrows="true" data-autoplay="true">
-          <div class="hero-slide text-center">
-            <img alt="" class="img-fluid cover" src="/images/slider-01.png" />
-            <div class="header-content text-white position-absolute slide-content col-lg-12">
-              <h1 class="p-0 m-0 text-white text-uppercase">
+      <section className="position-relative cus-banner overflow-hidden">
+        <div className="hero" data-arrows="true" data-autoplay="true">
+          <div className="hero-slide text-center">
+            <img alt="" className="img-fluid cover" src="/images/slider-01.png" />
+            <div className="header-content text-white position-absolute slide-content col-lg-12">
+              <h1 className="p-0 m-0 text-white text-uppercase">
                 Asset - Based Carrier <br />& Third-Party Logistics
               </h1>
-              <div class="btns-group mt-4">
-                <button type="button" class="btn btn-primary btn-lg">
+              <div className="btns-group mt-4">
+                <button type="button" className="btn btn-primary btn-lg">
                   Get a Quote
                 </button>
-                <button type="button" class="btn btn-secondary btn-lg">
+                <button type="button" className="btn btn-secondary btn-lg">
                   Contact Us
                 </button>
               </div>
@@ -35,29 +35,29 @@ export default function Main() {
       {/* <!-- Slider Section Ends -->
 
     <!-- About RRA Group Section Start --> */}
-      <section class="py-5 cus-about-rra-group">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-5">
-              <h2 class="mt-5 mb-3 text-uppercase text-white ">
+      <section className="py-5 cus-about-rra-group">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-5">
+              <h2 className="mt-5 mb-3 text-uppercase text-white ">
                 About RRA Group
               </h2>
-              <p class="text-white">
+              <p className="text-white">
                 Since 2013, RRA Group has been at the forefront of the logistics
                 industry, earning anexcellent safety rating and a reputation for
                 impeccable delivery timings.
               </p>
-              <p class="text-white">
+              <p className="text-white">
                 As your trusted partner, we understand the challenges in cargo
                 transportation. Our commitment is encapsulated in the phrase,{" "}
                 <br />
                 <b>"From Cargo Challenges to Solutions."</b>
               </p>
-              <button type="submit" class="btn btn-primary btn-lg mt-4">
-                <span class="d-flex align-items-center justify-content-center">
+              <button type="submit" className="btn btn-primary btn-lg mt-4">
+                <span className="d-flex align-items-center justify-content-center">
                   More About Us
                   <svg
-                    class="ms-3"
+                    className="ms-3"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -78,24 +78,24 @@ export default function Main() {
       {/* <!-- About RRA Group Section Ends -->
 
     <!-- Nubering Section Start --> */}
-      <section class="py-5 cus-numbering">
-        <div class="container-fluid">
-          <div class="row" id="circle">
-            <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 plus" data-count="800">{counters.satisfiedCustomers}</h2>
-              <h6 class="mt-2 mb-0 text-uppercase text-white">
+      <section className="py-5 cus-numbering">
+        <div className="container-fluid">
+          <div className="row" id="circle">
+            <div className="col-sm-4 text-center numbering-list">
+              <h2 className="counter text-black m-0 plus" data-count="800">{counters.satisfiedCustomers}</h2>
+              <h6 className="mt-2 mb-0 text-uppercase text-white">
                 Satisfied Customers
               </h6>
             </div>
-            <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 plus" data-count="10">{counters.yearsOfExperience}</h2>
-              <h6 class="mt-2 mb-0 text-uppercase text-white">
+            <div className="col-sm-4 text-center numbering-list">
+              <h2 className="counter text-black m-0 plus" data-count="10">{counters.yearsOfExperience}</h2>
+              <h6 className="mt-2 mb-0 text-uppercase text-white">
                 Years of Experience
               </h6>
             </div>
-            <div class="col-sm-4 text-center numbering-list">
-              <h2 class="counter text-black m-0 percent" data-count="100">{counters.successRate}</h2>
-              <h6 class="mt-2 mb-0 text-uppercase text-white">
+            <div className="col-sm-4 text-center numbering-list">
+              <h2 className="counter text-black m-0 percent" data-count="100">{counters.successRate}</h2>
+              <h6 className="mt-2 mb-0 text-uppercase text-white">
                 Success Rate
               </h6>
             </div>
@@ -105,23 +105,23 @@ export default function Main() {
       {/* <!-- Nubering Section Ends -->
 
     <!-- Our Services Section Start --> */}
-      <section class="pt-5 cus-our-services">
-        <div class="row">
-          <div class="col-md-12 py-4">
-            <h2 class="m-0 text-center text-uppercase">Our Key Services</h2>
+      <section className="pt-5 cus-our-services">
+        <div className="row">
+          <div className="col-md-12 py-4">
+            <h2 className="m-0 text-center text-uppercase">Our Key Services</h2>
           </div>
-          <div class="col-md-12">
-            <div class="row m-0 cus-gap">
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+          <div className="col-md-12">
+            <div className="row m-0 cus-gap">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/service-01.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">CARRIER</h4>
-                    <p class="text-white m-0">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">CARRIER</h4>
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -129,16 +129,16 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/brokerage.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">BROKERAGE</h4>
-                    <p class="text-white m-0">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">BROKERAGE</h4>
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -146,18 +146,18 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/freight-forwarding.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">
                       FREIGHT FORWARDING
                     </h4>
-                    <p class="text-white m-0">
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -165,16 +165,16 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/dedicated.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">DEDICATED</h4>
-                    <p class="text-white m-0">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">DEDICATED</h4>
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -182,16 +182,16 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/intermodal.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">INTERMODAL</h4>
-                    <p class="text-white m-0">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">INTERMODAL</h4>
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -199,16 +199,16 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
-                <div class="service-inner position-relative overflow-hidden">
+              <div className="col-md-4 p-0 service-list">
+                <div className="service-inner position-relative overflow-hidden">
                   <img
-                    class="w-100 img-fluid"
+                    className="w-100 img-fluid"
                     src="/images/warehousing.png"
                     alt=""
                   />
-                  <div class="service-grid-con">
-                    <h4 class="text-white text-uppercase mb-3">WAREHOUSING</h4>
-                    <p class="text-white m-0">
+                  <div className="service-grid-con">
+                    <h4 className="text-white text-uppercase mb-3">WAREHOUSING</h4>
+                    <p className="text-white m-0">
                       With reliable asset-basedcapacity solutions for all your
                       FTL and LTL requirements. We prioritize safetyand uphold
                       the highest standards of reliability at every step
@@ -223,15 +223,15 @@ export default function Main() {
       {/* <!-- Our Services Section Ends -->
 
     <!-- Who We Are Section Start --> */}
-      <section class="py-5 mb-5 who-we-are-group position-relative">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-7 p-0 who-we-track">
-              <img class="img-fluid" src="/images/who-we-track.png" alt="" />
+      <section className="py-5 mb-5 who-we-are-group position-relative">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-7 p-0 who-we-track">
+              <img className="img-fluid" src="/images/who-we-track.png" alt="" />
             </div>
-            <div class="col-md-5 position-relative ms-auto">
-              <h2 class="mt-5 mb-3 text-uppercase text-white">WHY RRA GROUP</h2>
-              <p class="text-white">
+            <div className="col-md-5 position-relative ms-auto">
+              <h2 className="mt-5 mb-3 text-uppercase text-white">WHY RRA GROUP</h2>
+              <p className="text-white">
                 We have been delivering a decade of excellence in logistics.
                 Trust us for reliable, timely services, comprehensive solutions,
                 and cost-effectiveness. Our customer-centric approach, extensive
@@ -239,11 +239,11 @@ export default function Main() {
                 make us your smart choice for supply chain success. Choose RRA
                 Group and enhance your logistics experience.
               </p>
-              <button type="submit" class="btn btn-primary btn-lg mt-4">
-                <span class="d-flex align-items-center justify-content-center">
+              <button type="submit" className="btn btn-primary btn-lg mt-4">
+                <span className="d-flex align-items-center justify-content-center">
                   Connect with us
                   <svg
-                    class="ms-3"
+                    className="ms-3"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -264,48 +264,48 @@ export default function Main() {
       {/* <!-- Who We Are Section Ends -->
 
     <!-- Our Services Section Start --> */}
-      <section class="py-5 mb-5 cus-rra-group-companies">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 py-5">
-                    <h2 class="m-0 text-center text-uppercase">RRA GROUP COMPANIES</h2>
+      <section className="py-5 mb-5 cus-rra-group-companies">
+        <div className="container-fluid">
+            <div className="row">
+                <div className="col-md-12 py-5">
+                    <h2 className="m-0 text-center text-uppercase">RRA GROUP COMPANIES</h2>
                 </div>
-                <div class="col-md-4">
-                    <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
-                        <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Ltd</h4>
-                        <button type="submit" class="btn btn-primary btn-lg">
-                            <span class="d-flex align-items-center justify-content-center">
+                <div className="col-md-4">
+                    <div className="oragne-gradient p-5 h-100">
+                        <img className="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
+                        <h4 className="text-white text-uppercase my-4 pt-2">RRA Trucking Ltd</h4>
+                        <button type="submit" className="btn btn-primary btn-lg">
+                            <span className="d-flex align-items-center justify-content-center">
                                 Visit Website
-                                <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="white"></path>
                                 </svg>
                             </span>
                         </button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
-                        <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Inc.</h4>
-                        <button type="submit" class="btn btn-primary btn-lg">
-                            <span class="d-flex align-items-center justify-content-center">
+                <div className="col-md-4">
+                    <div className="oragne-gradient p-5 h-100">
+                        <img className="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
+                        <h4 className="text-white text-uppercase my-4 pt-2">RRA Trucking Inc.</h4>
+                        <button type="submit" className="btn btn-primary btn-lg">
+                            <span className="d-flex align-items-center justify-content-center">
                                 Visit Website
-                                <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="white"></path>
                                 </svg>
                             </span>
                         </button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="oragne-gradient p-5 h-100">
-                        <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
-                        <h4 class="text-white text-uppercase my-4 pt-2">HGA Logistics Inc.</h4>
-                        <button type="submit" class="btn btn-primary btn-lg">
-                            <span class="d-flex align-items-center justify-content-center">
+                <div className="col-md-4">
+                    <div className="oragne-gradient p-5 h-100">
+                        <img className="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
+                        <h4 className="text-white text-uppercase my-4 pt-2">HGA Logistics Inc.</h4>
+                        <button type="submit" className="btn btn-primary btn-lg">
+                            <span className="d-flex align-items-center justify-content-center">
                                 Visit Website
-                                <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="white"></path>
                                 </svg>
                             </span>
@@ -317,23 +317,23 @@ export default function Main() {
     </section>
 
       {/* <!-- Clients Testimonials Section Start --> */}
-      <section class="py-5 cus-client-testimonials">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 ms-auto py-3">
-              <div class="testimonial-sec overflow-hidden">
-                <h3 class="text-white text-uppercase pb-4 mb-4">
+      <section className="py-5 cus-client-testimonials">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6 ms-auto py-3">
+              <div className="testimonial-sec overflow-hidden">
+                <h3 className="text-white text-uppercase pb-4 mb-4">
                   Testimonials
                 </h3>
                 <div
                   id="carouselExampleCaptions"
-                  class="carousel slide"
+                  className="carousel slide"
                   data-bs-ride="carousel"
                 >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="2000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -344,15 +344,15 @@ export default function Main() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                    <div className="carousel-item" data-bs-interval="4000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -363,15 +363,15 @@ export default function Main() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="6000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                    <div className="carousel-item" data-bs-interval="6000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -382,15 +382,15 @@ export default function Main() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
                   </div>
                   <button
-                    class="carousel-control-prev"
+                    className="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev"
@@ -415,7 +415,7 @@ export default function Main() {
                     </svg>
                   </button>
                   <button
-                    class="carousel-control-next"
+                    className="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next"
@@ -440,7 +440,7 @@ export default function Main() {
                     </svg>
                   </button>
                 </div>
-                <div class="quote-mark">
+                <div className="quote-mark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="202"
@@ -463,22 +463,22 @@ export default function Main() {
       {/* <!-- Clients Testimonials Section Ends -->
 
     <!-- Join Our Team Section Start --> */}
-      <section class="py-5 my-5 cus-joim-our-team text-center">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 mx-auto">
-              <h2 class="mb-3 text-uppercase">JOIN OUR TEAM</h2>
+      <section className="py-5 my-5 cus-joim-our-team text-center">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6 mx-auto">
+              <h2 className="mb-3 text-uppercase">JOIN OUR TEAM</h2>
               <p>
                 At RRA Group, personal growth is at the heart of our culture. We
                 activelyinvest in our team's development, fostering a supportive
                 environment for themto thrive and become their best selves. If
                 this resonates with you, take acloser look.
               </p>
-              <button type="submit" class="btn btn-primary btn-lg mt-4 mb-3">
-                <span class="d-flex align-items-center justify-content-center">
+              <button type="submit" className="btn btn-primary btn-lg mt-4 mb-3">
+                <span className="d-flex align-items-center justify-content-center">
                   Join our RRA Group
                   <svg
-                    class="ms-3"
+                    className="ms-3"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -493,9 +493,9 @@ export default function Main() {
                 </span>
               </button>
             </div>
-            <div class="col-md-9 mx-auto">
+            <div className="col-md-9 mx-auto">
               <img
-                class="w-100 img-fluid mt-5"
+                className="w-100 img-fluid mt-5"
                 src="/images/join-track.png"
                 alt=""
               />
@@ -506,47 +506,47 @@ export default function Main() {
       {/* <!-- Join Our Team Section Ends -->
 
     <!-- Form Section Start --> */}
-      <section class="mb-5 cus-form-enq">
-        <div class="container-fluid p-0">
-          <div class="row m-0">
-            <div class="col-md-6 p-0">
-              <div class="w-100 enquiry-form p-5">
-                <h2 class="text-white mb-4 text-uppercase fw-bold">
+      <section className="mb-5 cus-form-enq">
+        <div className="container-fluid p-0">
+          <div className="row m-0">
+            <div className="col-md-6 p-0">
+              <div className="w-100 enquiry-form p-5">
+                <h2 className="text-white mb-4 text-uppercase fw-bold">
                   WE ARE HERE TO HELP
                 </h2>
                 <form>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Your Name"
                     />
                   </div>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Email"
                     />
                   </div>
-                  <div class="mb-2">
+                  <div className="mb-2">
                     <input
                       type="number"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Contact Number"
                     />
                   </div>
-                  <div class="mb-4">
+                  <div className="mb-4">
                     <textarea
-                      class="w-100"
+                      className="w-100"
                       placeholder="Your Message"
                     ></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary btn-lg mt-4">
-                    <span class="d-flex align-items-center justify-content-center">
+                  <button type="submit" className="btn btn-primary btn-lg mt-4">
+                    <span className="d-flex align-items-center justify-content-center">
                       Get a Quote
                       <svg
-                        class="ms-3"
+                        className="ms-3"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
@@ -563,14 +563,14 @@ export default function Main() {
                 </form>
               </div>
             </div>
-            <div class="col-md-6 p-0">
-              <div class="position-relative h-100 cus-addresses-sec">
-                <div class="w-100 h-100">
-                  <img class="img-fluid h-100 map-img" src="/images/map.png" />
+            <div className="col-md-6 p-0">
+              <div className="position-relative h-100 cus-addresses-sec">
+                <div className="w-100 h-100">
+                  <img className="img-fluid h-100 map-img" src="/images/map.png" />
                 </div>
-                <div class="map-addresses">
-                  <div class="adresses-list">
-                    <ul class="list-unstyled m-0">
+                <div className="map-addresses">
+                  <div className="adresses-list">
+                    <ul className="list-unstyled m-0">
                       <li>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -605,14 +605,14 @@ export default function Main() {
                         </svg>
                       </li>
                       <li>
-                        <p class="mb-1 small">Contact No:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Contact No:</p>
+                        <p className="m-0">
                           <a href="tel:(+1)8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
-                        <p class="mb-1 small">Email ID:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Email ID:</p>
+                        <p className="m-0">
                           <a href="mailto:rragroupcanada@gmail.com">
                           import@rragroup.ca 
 
@@ -620,15 +620,15 @@ export default function Main() {
                         </p>
                       </li>
                       <li>
-                        <p class="mb-1 small">Address:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Address:</p>
+                        <p className="m-0">
                           2204 - 2060 MCCALLUM ROAD ABBOTSFORD BC V2S 3N4 CANADA
                         </p>
                       </li>
                     </ul>
                   </div>
-                  <div class="adresses-list">
-                    <ul class="list-unstyled m-0">
+                  <div className="adresses-list">
+                    <ul className="list-unstyled m-0">
                       <li>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -721,22 +721,22 @@ export default function Main() {
                         </svg>
                       </li>
                       <li>
-                        <p class="mb-1 small">Contact No:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Contact No:</p>
+                        <p className="m-0">
                           <a href="tel:(+1)8883168287">(+1)888-316-8287</a>,
                         </p>
                       </li>
                       <li>
-                        <p class="mb-1 small">Email ID:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Email ID:</p>
+                        <p className="m-0">
                           <a href="mailto:rragroupus@gmail.com">
                           import@rragroup.ca 
                           </a>
                         </p>
                       </li>
                       <li>
-                        <p class="mb-1 small">Address:</p>
-                        <p class="m-0">
+                        <p className="mb-1 small">Address:</p>
+                        <p className="m-0">
                           Suite 301 - 2219 Rimland Drive Bellingham WA -
                           (Washington) 98226 UNITED STATES
                         </p>
@@ -752,19 +752,19 @@ export default function Main() {
       {/* <!-- Form Section Ends -->
 
     <!-- Certification Section Start --> */}
-      <section class="py-5 my-5 cus-certification text-center">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-10 mx-auto">
-              <h3 class="mb-3 text-uppercase">Certification</h3>
+      <section className="py-5 my-5 cus-certification text-center">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-10 mx-auto">
+              <h3 className="mb-3 text-uppercase">Certification</h3>
               <p>
                 At RRA, we're your complete end-to-end logistics provider across
                 North America. <br />
                 Trust us because we've got it all:
               </p>
             </div>
-            <div class="col-md-12">
-              <ul class="p-0 pt-4 m-auto d-flex align-items-center justify-content-center list-group list-group-horizontal flex-wrap list-unstyled">
+            <div className="col-md-12">
+              <ul className="p-0 pt-4 m-auto d-flex align-items-center justify-content-center list-group list-group-horizontal flex-wrap list-unstyled">
                 <li>
                   <img src="/images/logo-01.png" />
                 </li>

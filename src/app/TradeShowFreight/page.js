@@ -6,16 +6,16 @@ function TradeShowFreight() {
     <>
       <Header />
 
-      <section class="cus-hero-sec">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="w-100 h-100 position-relative">
+      <section className="cus-hero-sec">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="w-100 h-100 position-relative">
               <img
-                class="w-100 img-fluid cover"
+                className="w-100 img-fluid cover"
                 src="/images/hero-TRADE-SHOW-FREIGHT.jpg"
                 alt=""
               />
-              <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
+              <h1 className="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
                 TRADE SHOW FREIGHT
               </h1>
             </div>
@@ -25,13 +25,13 @@ function TradeShowFreight() {
       {/* <!-- Hero Section Ends -->
 
     <!-- Contents Section Start --> */}
-      <section class="py-5 cus-experience-rra">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-11 mx-auto pt-5">
-              <div class="row align-items-center">
-                <div class="col-md-6 px-5">
-                  <h2 class="mb-3 text-uppercase">
+      <section className="py-5 cus-experience-rra">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-11 mx-auto pt-5">
+              <div className="row align-items-center">
+                <div className="col-md-6 px-5">
+                  <h2 className="mb-3 text-uppercase">
                     Seamless Logistics for Your Event Success
                   </h2>
                   <p>
@@ -40,11 +40,11 @@ function TradeShowFreight() {
                     trade show freight services designed to ensure your
                     exhibitions are a resounding success.
                   </p>
-                  <button type="submit" class="btn btn-primary btn-lg mt-4">
-                    <span class="d-flex align-items-center justify-content-center">
+                  <button type="submit" className="btn btn-primary btn-lg mt-4">
+                    <span className="d-flex align-items-center justify-content-center">
                       Contact Us
                       <svg
-                        class="ms-3"
+                        className="ms-3"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"
@@ -59,9 +59,9 @@ function TradeShowFreight() {
                     </span>
                   </button>
                 </div>
-                <div class="col-md-6 px-5">
+                <div className="col-md-6 px-5">
                   <img
-                    class="w-100 img-fluid cover"
+                    className="w-100 img-fluid cover"
                     src="/images/seamless-logistics.jpg"
                     alt=""
                   />
@@ -74,15 +74,15 @@ function TradeShowFreight() {
       {/* <!-- Contents Section Ends -->
 
     <!-- Experience Grid Section Start --> */}
-      <section class="py-5 cus-experience-rra">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 my-3">
-              <h2 class="text-center text-uppercase">What We Offer</h2>
+      <section className="py-5 cus-experience-rra">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12 my-3">
+              <h2 className="text-center text-uppercase">What We Offer</h2>
             </div>
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -107,19 +107,19 @@ function TradeShowFreight() {
                     </defs>
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">
+                <h4 className="text-white text-uppercase my-4">
                   Meticulous Planning
                 </h4>
-                <p class="text-white mb-0">
+                <p className="text-white mb-0">
                   We provide a range of transportation options, such as ground
                   shipping, ocean freight, and air cargo. Our border-crossing
                   experience is flawless, insuring a 100% success rate.
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -160,19 +160,19 @@ function TradeShowFreight() {
                     </defs>
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">
+                <h4 className="text-white text-uppercase my-4">
                   Seamless Coordination
                 </h4>
-                <p class="text-white mb-0">
+                <p className="text-white mb-0">
                   Successful trade shows require perfect coordination. RRA Group
                   ensures that every aspect of your materials' transportation is
                   seamless, saving you time and effort.
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
-              <div class="w-100 h-100 p-5 bg-secondary-dark">
-                <div class="w-100 d-flex align-items-center justify-content-start pb-2">
+            <div className="col-md-4 my-3">
+              <div className="w-100 h-100 p-5 bg-secondary-dark">
+                <div className="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="90"
@@ -193,10 +193,10 @@ function TradeShowFreight() {
                     </defs>
                   </svg>
                 </div>
-                <h4 class="text-white text-uppercase my-4">
+                <h4 className="text-white text-uppercase my-4">
                   Reliable Transportation
                 </h4>
-                <p class="text-white mb-0">
+                <p className="text-white mb-0">
                   We understand that your materials are crucial for your event's
                   success. That's why we provide reliable transportation
                   services, ensuring your materials arrive on time and on
@@ -210,23 +210,23 @@ function TradeShowFreight() {
       {/* <!-- Experience Grid Section Ends -->
 
     <!-- Clients Testimonials Section Start --> */}
-      <section class="py-5 cus-client-testimonials">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 ms-auto py-3">
-              <div class="testimonial-sec overflow-hidden">
-                <h3 class="text-white text-uppercase pb-4 mb-4">
+      <section className="py-5 cus-client-testimonials">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-6 ms-auto py-3">
+              <div className="testimonial-sec overflow-hidden">
+                <h3 className="text-white text-uppercase pb-4 mb-4">
                   Testimonials
                 </h3>
                 <div
                   id="carouselExampleCaptions"
-                  class="carousel slide"
+                  className="carousel slide"
                   data-bs-ride="carousel"
                 >
-                  <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                  <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="2000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -237,15 +237,15 @@ function TradeShowFreight() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                    <div className="carousel-item" data-bs-interval="4000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -256,15 +256,15 @@ function TradeShowFreight() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="6000">
-                      <div class="carousel-caption">
-                        <p class="text-white">
+                    <div className="carousel-item" data-bs-interval="6000">
+                      <div className="carousel-caption">
+                        <p className="text-white">
                           "RRA has been our logistics partner for over adecade,
                           and they continue to exceed our expectations. Their
                           commitment toreliability and safety is unmatched.
@@ -275,15 +275,15 @@ function TradeShowFreight() {
                           significantlyto our success. We couldn't ask for a
                           better logistics partner."
                         </p>
-                        <h6 class="m-0 text-white">John Smith</h6>
-                        <span class="text-white">
+                        <h6 className="m-0 text-white">John Smith</h6>
+                        <span className="text-white">
                           CEO, Smith Electronics Inc.
                         </span>
                       </div>
                     </div>
                   </div>
                   <button
-                    class="carousel-control-prev"
+                    className="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev"
@@ -308,7 +308,7 @@ function TradeShowFreight() {
                     </svg>
                   </button>
                   <button
-                    class="carousel-control-next"
+                    className="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next"
@@ -333,7 +333,7 @@ function TradeShowFreight() {
                     </svg>
                   </button>
                 </div>
-                <div class="quote-mark">
+                <div className="quote-mark">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="202"

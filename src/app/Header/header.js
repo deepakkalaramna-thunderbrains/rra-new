@@ -59,34 +59,92 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-2 mb-lg-0">
-                            
-                            <Link href="/About"className="nav-link">
-                               About Us
-                            </Link>
-
                             <li className="nav-item">
-                                <a className="nav-link" href="#">How it Works</a>
+                                <Link className="nav-link" aria-current="page" href="/About">About Us</Link>
                             </li>
-
-                            <Link href="/FreightServices"className="nav-link">
-                              Freight Services
-                            </Link>
-                            
+                            <li className="nav-item position-relative">
+                                <Link className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Freight Forwarding</Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <Link className="dropdown-item" href="/FreightServices">
+                                            Freight Services
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            SHIPMENT TRACKING
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            NO MINI-MAX WEIGHT LIMIT
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            TRADE SHOW FREIGHT
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="nav-item position-relative">
+                                <Link className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Custom Brokerage</Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            Canada Customs
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            Us Customs
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            DUTY DRAWBACKS
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" href="#">
+                                            N.R.I Program
+                                            <svg xmlns="http://www.w3.org/2000/svg" style={{width:'20', height:'20'}} viewBox="0 0 20 20" fill="none">
+                                                <path d="M13.4765 9.16658L9.0065 4.69657L10.185 3.51807L16.6668 9.99992L10.185 16.4817L9.0065 15.3032L13.4765 10.8332H3.3335V9.16658H13.4765Z" fill="#FE7C04"/>
+                                            </svg>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Transportation</a>
+                                <Link className="nav-link" href="#">Warehousing</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Industries Served</a>
+                                <Link className="nav-link" href="#">TRADE COMPLIANCE ADVISORY</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">RRA Group Companies</a>
+                                <Link className="nav-link" href="/Contact">Contact Us</Link>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Resources</a>
-                            </li>
-                            <Link href="/Contact"className="nav-link">
-                              Contact us
-                            </Link>
                         </ul>
                     </div>
                 </div>

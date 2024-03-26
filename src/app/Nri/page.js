@@ -5,16 +5,16 @@ function Nri() {
   <>
     <Header />
     {/* <!-- Hero Section Start --> */}
-    <section class="cus-hero-sec">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="w-100 h-100 position-relative">
+    <section className="cus-hero-sec">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="w-100 h-100 position-relative">
             <img
-              class="w-100 img-fluid cover"
+              className="w-100 img-fluid cover"
               src="/images/hero-NRI.jpg"
               alt=""
             />
-            <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
+            <h1 className="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
               N.R.I <br />
               (Non-Resident Importer) <br /> Program
             </h1>
@@ -25,13 +25,13 @@ function Nri() {
     {/* <!-- Hero Section Ends -->
 
     <!-- Contents Section Start --> */}
-    <section class="py-5 cus-experience-rra">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-11 mx-auto py-5">
-            <div class="row align-items-center">
-              <div class="col-md-6 px-5">
-                <h4 class="mb-3">
+    <section className="py-5 cus-experience-rra">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-11 mx-auto py-5">
+            <div className="row align-items-center">
+              <div className="col-md-6 px-5">
+                <h4 className="mb-3">
                   U.S. firms aspiring to reach Canadian markets must grasp the
                   Non-Resident Importer (NRI) program's nuances.
                 </h4>
@@ -42,11 +42,11 @@ function Nri() {
                   importation process and helps businesses outside Canada sell
                   their products to Canadian customers more easily.
                 </p>
-                <button type="submit" class="btn btn-primary btn-lg mt-4">
-                  <span class="d-flex align-items-center justify-content-center">
+                <button type="submit" className="btn btn-primary btn-lg mt-4">
+                  <span className="d-flex align-items-center justify-content-center">
                     Contact Us
                     <svg
-                      class="ms-3"
+                      className="ms-3"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -61,9 +61,9 @@ function Nri() {
                   </span>
                 </button>
               </div>
-              <div class="col-md-6 px-5">
+              <div className="col-md-6 px-5">
                 <img
-                  class="w-100 img-fluid cover"
+                  className="w-100 img-fluid cover"
                   src="/images/US-firms-aspiring.jpg"
                   alt=""
                 />
@@ -76,32 +76,32 @@ function Nri() {
     {/* <!-- Contents Section Ends -->
 
    <!-- Contents Section Start --> */}
-    <section class="py-5 cus-experience-rra bg-secondary-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mx-auto py-5">
-            <div class="row align-items-center">
-              <div class="col-md-6 px-5">
+    <section className="py-5 cus-experience-rra bg-secondary-dark">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 mx-auto py-5">
+            <div className="row align-items-center">
+              <div className="col-md-6 px-5">
                 <img
-                  class="w-100 img-fluid cover"
+                  className="w-100 img-fluid cover"
                   src="/images/seamless-cross-border.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-md-6 px-5">
-                <h2 class="mb-3 text-uppercase text-white">
+              <div className="col-md-6 px-5">
+                <h2 className="mb-3 text-uppercase text-white">
                   Seamless Cross-Border Solutions
                 </h2>
-                <p class="text-white">
+                <p className="text-white">
                   We streamline the logistics process for U.S.-based companies,
                   reducing the complexities associated with cross-border trade.
                 </p>
-                <p class="text-white">
+                <p className="text-white">
                   We are a reliable and efficient team for custom clearance,
                   documentation, and trade advice specific to Canadian
                   regulations.
                 </p>
-                <p class="text-white">
+                <p className="text-white">
                   At RRA, we help you explore cost-effective shipping options,
                   duty minimization, and trade facilitation to enhance your
                   bottom line.
@@ -115,20 +115,20 @@ function Nri() {
     {/* <!-- Contents Section Ends -->
 
     <!-- Frequently Asked Questions Start --> */}
-    <section class="py-5 mt-5 cus-faq-sec">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-center text-uppercase">
+    <section className="py-5 mt-5 cus-faq-sec">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12">
+            <h2 className="text-center text-uppercase">
               Frequently Asked Questions
             </h2>
           </div>
-          <div class="col-md-9 mx-auto my-5">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
+          <div className="col-md-9 mx-auto my-5">
+            <div className="accordion accordion-flush" id="accordionFlushExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="flush-headingOne">
                   <button
-                    class="accordion-button"
+                    className="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
@@ -142,11 +142,11 @@ function Nri() {
                 </h2>
                 <div
                   id="flush-collapseOne"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   aria-labelledby="flush-headingOne"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Yes, we do. We help businesses obtain a Canadian import
                       number and navigate the customs clearance process
@@ -155,10 +155,10 @@ function Nri() {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="flush-headingTwo">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
@@ -170,11 +170,11 @@ function Nri() {
                 </h2>
                 <div
                   id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="flush-headingTwo"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
@@ -185,10 +185,10 @@ function Nri() {
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="flush-headingThree">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
@@ -202,11 +202,11 @@ function Nri() {
                 </h2>
                 <div
                   id="flush-collapseThree"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   aria-labelledby="flush-headingThree"
                   data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
