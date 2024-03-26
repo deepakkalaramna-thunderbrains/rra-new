@@ -27,7 +27,6 @@ const ContactUs = () => {
   };
 
   const handleLoginRequirements = () => {
-    debugger;
     const { email, telephone, message, firstName, lastName, companyName } =
       formData;
     let messagesToAdd = {};
@@ -78,18 +77,18 @@ const ContactUs = () => {
     return canLogin;
   };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    if (handleLoginRequirements()) {
-      const response = await fetch("/api/contact", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify(formData),
-            });
-    }
-  };
+  // const handleSubmit = async (event) => {
+  //   event.preventDefault();
+  //   if (handleLoginRequirements()) {
+  //     const response = await fetch("/api/contact", {
+  //             method: "POST",
+  //             headers: {
+  //               "Content-Type": "application/json",
+  //             },
+  //             body: JSON.stringify(formData),
+  //           });
+  //   }
+  // };
 
   return (
     <>
