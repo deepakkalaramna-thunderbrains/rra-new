@@ -1,6 +1,7 @@
 'use client';
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
+import Link from 'next/link';
 // import './index'
 
 export default function Main() {
@@ -24,9 +25,14 @@ export default function Main() {
                 <button type="button" className="btn btn-primary btn-lg">
                   Get a Quote
                 </button>
+<<<<<<< HEAD
                 <button type="button" className="btn btn-secondary btn-lg">
+=======
+                <a href="/Contact">
+                <button type="button" class="btn btn-secondary btn-lg">
+>>>>>>> main
                   Contact Us
-                </button>
+                </button></a>
               </div>
             </div>
           </div>
@@ -53,8 +59,14 @@ export default function Main() {
                 <br />
                 <b>"From Cargo Challenges to Solutions."</b>
               </p>
+<<<<<<< HEAD
               <button type="submit" className="btn btn-primary btn-lg mt-4">
                 <span className="d-flex align-items-center justify-content-center">
+=======
+              <a href="/About">
+              <button type="submit" class="btn btn-primary btn-lg mt-4">
+                <span class="d-flex align-items-center justify-content-center">
+>>>>>>> main
                   More About Us
                   <svg
                     className="ms-3"
@@ -70,7 +82,7 @@ export default function Main() {
                     />
                   </svg>
                 </span>
-              </button>
+              </button></a>
             </div>
           </div>
         </div>
@@ -129,8 +141,14 @@ export default function Main() {
                   </div>
                 </div>
               </div>
+<<<<<<< HEAD
               <div className="col-md-4 p-0 service-list">
                 <div className="service-inner position-relative overflow-hidden">
+=======
+              <div class="col-md-4 p-0 service-list">
+                <a href = "/Custom-Brokerage">
+                <div class="service-inner position-relative overflow-hidden">
+>>>>>>> main
                   <img
                     className="w-100 img-fluid"
                     src="/images/brokerage.png"
@@ -144,10 +162,16 @@ export default function Main() {
                       the highest standards of reliability at every step
                     </p>
                   </div>
-                </div>
+                </div></a>
               </div>
+<<<<<<< HEAD
               <div className="col-md-4 p-0 service-list">
                 <div className="service-inner position-relative overflow-hidden">
+=======
+              <div class="col-md-4 p-0 service-list">
+                <a href = "/FreightForwarding">
+                <div class="service-inner position-relative overflow-hidden">
+>>>>>>> main
                   <img
                     className="w-100 img-fluid"
                     src="/images/freight-forwarding.png"
@@ -164,9 +188,16 @@ export default function Main() {
                     </p>
                   </div>
                 </div>
+                </a>
               </div>
+<<<<<<< HEAD
               <div className="col-md-4 p-0 service-list">
                 <div className="service-inner position-relative overflow-hidden">
+=======
+              <div class="col-md-4 p-0 service-list">
+                <a>
+                <div class="service-inner position-relative overflow-hidden">
+>>>>>>> main
                   <img
                     className="w-100 img-fluid"
                     src="/images/dedicated.png"
@@ -180,7 +211,7 @@ export default function Main() {
                       the highest standards of reliability at every step
                     </p>
                   </div>
-                </div>
+                </div></a>
               </div>
               <div className="col-md-4 p-0 service-list">
                 <div className="service-inner position-relative overflow-hidden">
@@ -199,8 +230,15 @@ export default function Main() {
                   </div>
                 </div>
               </div>
+<<<<<<< HEAD
               <div className="col-md-4 p-0 service-list">
                 <div className="service-inner position-relative overflow-hidden">
+=======
+              {/* <a href = "/Warehousing"> */}
+              <div class="col-md-4 p-0 service-list">
+                <a href="/Warehousing">
+                <div class="service-inner position-relative overflow-hidden">
+>>>>>>> main
                   <img
                     className="w-100 img-fluid"
                     src="/images/warehousing.png"
@@ -214,7 +252,7 @@ export default function Main() {
                       the highest standards of reliability at every step
                     </p>
                   </div>
-                </div>
+                </div></a>
               </div>
             </div>
           </div>
