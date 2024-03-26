@@ -129,7 +129,7 @@ function TradeComplianceAdvisory(){
         <div class="row">
             <div class="col-md-12">
                 <div class="w-100 h-100 position-relative">
-                    <img class="w-100 img-fluid cover" src="images/hero-TRADE-COMPLIANCE-ADVISORY.jpg" alt="" />
+                    <img class="w-100 img-fluid cover" src="/images/hero-TRADE-COMPLIANCE-ADVISORY.jpg" alt="" />
                     <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">TRADE COMPLIANCE ADVISORY</h1>
                 </div>
             </div>
@@ -147,7 +147,7 @@ function TradeComplianceAdvisory(){
                 <div class="col-md-11 mx-auto pt-3">
                     <div class="row align-items-center">
                         <div class="col-md-6 px-5">
-                            <img class="w-100 img-fluid cover" src="images/trade-compliance.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/trade-compliance.jpg" alt="" />
                         </div>
                         <div class="col-md-6 px-5">
                             <p>Many businesses struggle with the intricate web of international trade regulations. They often face delays, fines, and compliance challenges that hinder their global expansion.</p>

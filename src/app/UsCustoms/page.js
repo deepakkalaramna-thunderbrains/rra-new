@@ -9,7 +9,7 @@ function UsCustoms(){
         <div class="row">
             <div class="col-md-12">
                 <div class="w-100 h-100 position-relative">
-                    <img class="w-100 img-fluid cover" src="images/hero-US-CUSTOMS.jpg" alt="" />
+                    <img class="w-100 img-fluid cover" src="/images/hero-US-CUSTOMS.jpg" alt="" />
                     <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">U.S CUSTOMS</h1>
                 </div>
             </div>
@@ -38,7 +38,7 @@ function UsCustoms(){
                             </button>
                         </div>
                         <div class="col-md-6 px-5">
-                            <img class="w-100 img-fluid cover" src="images/efficient-cross-border.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/efficient-cross-border.jpg" alt="" />
                         </div>
                     </div>
                 </div>

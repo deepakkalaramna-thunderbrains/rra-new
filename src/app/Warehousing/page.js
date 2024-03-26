@@ -13,7 +13,7 @@ function Warehousing() {
             <div class="w-100 h-100 position-relative">
               <img
                 class="w-100 img-fluid cover"
-                src="images/hero-WAREHOUSING.jpg"
+                src="/images/hero-WAREHOUSING.jpg"
                 alt=""
               />
               <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
@@ -67,7 +67,7 @@ function Warehousing() {
                 <div class="col-md-6 px-5">
                   <img
                     class="w-100 img-fluid cover"
-                    src="images/efficiency-and-security.jpg"
+                    src="/images/efficiency-and-security.jpg"
                     alt=""
                   />
                 </div>

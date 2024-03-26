@@ -9,7 +9,7 @@ function CustomBrokerage(){
         <div class="row">
             <div class="col-md-12">
                 <div class="w-100 h-100 position-relative">
-                    <img class="w-100 img-fluid cover" src="images/hero-CUSTOM-BROKERAGE.jpg" alt="" />
+                    <img class="w-100 img-fluid cover" src="/images/hero-CUSTOM-BROKERAGE.jpg" alt="" />
                     <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">CUSTOM BROKERAGE</h1>
                 </div>
             </div>
@@ -27,7 +27,7 @@ function CustomBrokerage(){
                 <div class="col-md-11 mx-auto pt-3">
                     <div class="row align-items-center">
                         <div class="col-md-6 px-5">
-                            <img class="w-100 img-fluid cover" src="images/brokerage-services.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/brokerage-services.jpg" alt="" />
                         </div>
                         <div class="col-md-6 px-5">
                             <h4 class="mb-3">What may seem easy at first can quickly become a complex challenge without the right customs brokerage partner.</h4>

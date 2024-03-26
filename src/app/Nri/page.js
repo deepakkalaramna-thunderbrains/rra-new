@@ -11,7 +11,7 @@ function Nri() {
           <div class="w-100 h-100 position-relative">
             <img
               class="w-100 img-fluid cover"
-              src="images/hero-NRI.jpg"
+              src="/images/hero-NRI.jpg"
               alt=""
             />
             <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
@@ -64,7 +64,7 @@ function Nri() {
               <div class="col-md-6 px-5">
                 <img
                   class="w-100 img-fluid cover"
-                  src="images/US-firms-aspiring.jpg"
+                  src="/images/US-firms-aspiring.jpg"
                   alt=""
                 />
               </div>
@@ -84,7 +84,7 @@ function Nri() {
               <div class="col-md-6 px-5">
                 <img
                   class="w-100 img-fluid cover"
-                  src="images/seamless-cross-border.jpg"
+                  src="/images/seamless-cross-border.jpg"
                   alt=""
                 />
               </div>

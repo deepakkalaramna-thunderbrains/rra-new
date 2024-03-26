@@ -9,7 +9,7 @@ function NoMiniMax(){
         <div class="row">
             <div class="col-md-12">
                 <div class="w-100 h-100 position-relative">
-                    <img class="w-100 img-fluid cover" src="images/hero-NO-MINI-MAX-WEIGHT-LIMIT.jpg" alt="" />
+                    <img class="w-100 img-fluid cover" src="/images/hero-NO-MINI-MAX-WEIGHT-LIMIT.jpg" alt="" />
                     <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">NO MINI-MAX WEIGHT LIMIT</h1>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function NoMiniMax(){
                             </button>
                         </div>
                         <div class="col-md-6 px-5">
-                            <img class="w-100 img-fluid cover" src="images/ship-without-conflict.jpg" alt="" />
+                            <img class="w-100 img-fluid cover" src="/images/ship-without-conflict.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ function NoMiniMax(){
                             </div>
                             <div class="col-md-4">
                                 <div class="w-100 d-flex align-items-center justify-content-center h-100">
-                                    <img class="img-fluid contain" src="images/stress-free-logistics.png" alt="" />
+                                    <img class="img-fluid contain" src="/images/stress-free-logistics.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ function NoMiniMax(){
                             </div>
                             <div class="col-md-4">
                                 <div class="w-100 d-flex align-items-center justify-content-center h-100">
-                                    <img class="img-fluid contain" src="images/swift-turnaround.png" alt="" />
+                                    <img class="img-fluid contain" src="/images/swift-turnaround.png" alt="" />
                                 </div>
                             </div>
                         </div>
