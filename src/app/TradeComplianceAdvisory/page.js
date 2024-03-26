@@ -119,7 +119,7 @@
 
 
 import Header from "../Header/header"
-import Footer from "../Footer/header"
+import Footer from "../Footer/footer"
 
 
 function TradeComplianceAdvisory(){

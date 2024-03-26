@@ -2,7 +2,7 @@ import Header from "../Header/header"
 import Footer from "../Footer/footer"
 
 function CustomBrokerage(){
-    <>
+    return <>
     <Header/>
     {/* <!-- Hero Section Start --> */}
     <section class="cus-hero-sec">
