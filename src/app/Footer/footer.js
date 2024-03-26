@@ -10,7 +10,7 @@ return(<footer class="bg-secondary-dark pt-5">
     <div class="row py-4">
         <div class="col-md-3">
             <div class="d-flex footer-logo">
-                <img src="images/footer-logo.svg" alt="" />
+                <img src="/images/footer-logo.svg" alt="" />
             </div>
         </div>
         <div class="col-md-9">
@@ -44,7 +44,7 @@ return(<footer class="bg-secondary-dark pt-5">
                             <a href="/Canada-Customs">Canada Customs</a>
                         </li>
                         <li>
-                            <a href="/USCustoms">US Customs</a>
+                            <a href="/UsCustoms">US Customs</a>
                         </li>
                         <li>
                             <a href="/Duty-Drawbacks">Duty Drawbacks</a>
@@ -102,8 +102,8 @@ return(<footer class="bg-secondary-dark pt-5">
                                 <p class="ps-3 mb-0 text-white">Canada</p>
                             </div>
                             <div class="d-flex flex-column mt-3">
-                                <p class="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
-                                <p class="text-white mb-0">200-45610 Luckakuck Way, Chilliwack, British Columbia, Canada, V2R 1A2</p>
+                                <p class="text-white"><a href="mailto:rra@gmail.com">import@rragroup.ca</a></p>
+                                <p class="text-white mb-0">2204 - 2060 MCCALLUM ROAD ABBOTSFORD BC V2S 3N4 CANADA</p>
                             </div>
                         </li>
                         <li>
@@ -134,8 +134,9 @@ return(<footer class="bg-secondary-dark pt-5">
                                 <p class="ps-3 mb-0 text-white">United States</p>
                             </div>
                             <div class="d-flex flex-column mt-3">
-                                <p class="text-white"><a href="mailto:rra@gmail.com">rra@gmail.com</a></p>
-                                <p class="text-white mb-0">710 W Bell Rd #44, Glendale, Arkansas, United States, 85308</p>
+                                <p class="text-white"><a href="mailto:rra@gmail.com">import@rragroup.ca</a></p>
+                                <p class="text-white mb-0">Suite 301 - 2219 Rimland Drive Bellingham WA -
+                          (Washington) 98226 UNITED STATES</p>
                             </div>
                         </li>
                     </ul>
@@ -149,7 +150,7 @@ return(<footer class="bg-secondary-dark pt-5">
         <div class="col-md-12">
             <div class="d-flex flex-nowrap align-items-center justify-content-between cus-copy-right">
                 <div class="d-flex flex-row align-items-center">
-                    <p class="m-0 text-white">ⓒ 2023 -- RRA Group</p>
+                    <p class="m-0 text-white">ⓒ {currentYear} -- RRA Group</p>
                     <ul class="d-flex flex-row ms-4 mb-0 p-0 list-group">
                         <li class="nav-item m-0">
                             <a class="nav-link text-white" href="#">Privacy Policy</a>

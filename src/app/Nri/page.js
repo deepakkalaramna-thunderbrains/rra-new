@@ -2,6 +2,7 @@ import Header from "../Header/header";
 import Footer from "../Footer/footer";
 
 function Nri() {
+  return (
   <>
     <Header />
     {/* <!-- Hero Section Start --> */}
@@ -225,7 +226,7 @@ function Nri() {
     {/* <!-- Frequently Asked Questions Ends --> */}
 
     <Footer />
-  </>;
+  </>);
 }
 
 export default Nri;
