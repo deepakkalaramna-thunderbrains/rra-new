@@ -8,8 +8,8 @@ export default function Footer(){
 let date = new Date()
 let currentYear = date.getFullYear()
 return(
-    <h1>This is a footer</h1>)}
-{/* <footer class="bg-secondary-dark pt-5">
+    
+ <footer class="bg-secondary-dark pt-5">
 <div class="container-fluid my-3">
     <div class="row py-4">
         <div class="col-md-3">
@@ -193,4 +193,4 @@ return(
         </div>
     </div>
 </div>
-</footer>)} */}
+</footer>)} 

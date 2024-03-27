@@ -2,8 +2,12 @@
 
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
+import dynamic from "next/dynamic"
 
 function CustomBrokerage(){
+    const Header = dynamic(() => import("./Header/header.js"), {
+        suspense: true,
+      });
     return <>
     <Header/>
     {/* <!-- Hero Section Start --> */}

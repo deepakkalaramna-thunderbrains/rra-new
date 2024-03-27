@@ -1,10 +1,19 @@
 "use client"
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
-import Header from "../Header/header";
 import Footer from "../Footer/footer";
+import dynamic from 'next/dynamic';
+import '../../app/styles/breakpoints.css'
+import '../../app/styles/custom.css'
+import '../../app/styles/index.css'
+import '../../app/styles/variables.css'
+
+
 
 function ShipmentTracking() {
+    const Header = dynamic(() => import("./Header/header.js"), {
+        suspense: true,
+      });
     return (
         <>
             <Header />

@@ -5,6 +5,7 @@ import Link from 'next/link';
 // import './index'
 
 export default function Main() {
+  
   const counters = {
     satisfiedCustomers: 800,
     yearsOfExperience: 10,

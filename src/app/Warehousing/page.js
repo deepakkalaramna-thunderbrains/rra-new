@@ -1,9 +1,12 @@
 'use client'
 
-import Header from "../Header/header";
 import Footer from "../Footer/footer";
+import dynamic from "next/dynamic";
 
 function Warehousing() {
+  const Header = dynamic(() => import("./Header/header.js"), {
+    suspense: true,
+  });
   return (
     <>
       <Header />

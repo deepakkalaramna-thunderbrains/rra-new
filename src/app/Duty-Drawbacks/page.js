@@ -1,12 +1,15 @@
 'use client'
 
-
+import dynamic from "next/dynamic"
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
 
 
 
 function DutyDrawbacks(){
+    const Header = dynamic(() => import("./Header/header.js"), {
+        suspense: true,
+      });
     return <>
     <Header/>
 

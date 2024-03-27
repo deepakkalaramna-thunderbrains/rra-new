@@ -4,7 +4,7 @@
 import React, { useState } from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
-import Header from "../Header/header";
+import dynamic from "next/dynamic";
 import Footer from "../Footer/footer";
 import '../../app/styles/breakpoints.css'
 import '../../app/styles/custom.css'
@@ -24,6 +24,9 @@ const ContactUs = () => {
     lastName: "",
     companyName: "",
     messages: {},
+  });
+  const Header = dynamic(() => import("./Header/header.js"), {
+    suspense: true,
   });
 
   const handleChange = (event) => {

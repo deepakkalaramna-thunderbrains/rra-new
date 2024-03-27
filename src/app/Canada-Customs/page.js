@@ -1,9 +1,11 @@
 'use client'
-
-import Header from "../Header/header"
+import dynamic from "next/dynamic"
 import Footer from "../Footer/footer"
 
 function CanadaCustoms(){
+    const Header = dynamic(() => import("./Header/header.js"), {
+        suspense: true,
+      });
     return <>
     <Header/> 
 
