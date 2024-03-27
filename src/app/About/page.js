@@ -1,12 +1,12 @@
 // "use client"
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../../node_modules/slick-carousel/slick/slick.css'
-import dynamic from 'next/dynamic';
-import Footer from "../Footer/footer";
-import '../../app/styles/breakpoints.css'
-import '../../app/styles/custom.css'
-import '../../app/styles/index.css'
-import '../../app/styles/variables.css'
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import '../../../node_modules/slick-carousel/slick/slick.css'
+// // import dynamic from 'next/dynamic';
+// // import Footer from "../Footer/footer";
+// import '../../app/styles/breakpoints.css'
+// import '../../app/styles/custom.css'
+// import '../../app/styles/index.css'
+// import '../../app/styles/variables.css'
 
 export const metadata = {
     title: "About Us | RRA Group",
@@ -15,9 +15,9 @@ export const metadata = {
   };
 
 function About() {
-    const Header = dynamic(() => import("../Header/header.js"), {
-        ssr: false,
-      });
+    // const Header = dynamic(() => import("../Header/header.js"), {
+    //     ssr: false,
+    //   });
     return (
         <>
             {/* <Header /> */}
