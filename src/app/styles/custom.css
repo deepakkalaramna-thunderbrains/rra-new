@@ -255,34 +255,12 @@ header .navbar-expand-lg .navbar-nav .nav-link:focus {
     outline: 0;
     box-shadow: none;
 }
-header .dropdown-menu {
-    padding: 0;
-    border-radius: 0;
-    border: none;
-    background: var(--white);
-    min-width: 19rem;
-}
-header .dropdown-menu .dropdown-item {
-    padding: .8rem 1rem;
-    text-transform: uppercase;
-    color: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header .dropdown-menu .dropdown-item:hover,
-header .dropdown-menu .dropdown-item:focus {
-    background: var(--grey-light);
-}
 /* Header Section CSS Ends */
 
 /* Footer Section CSS Start */
 footer h6{
     font-weight: 600;
     color: var(--white);
-}
-footer ul {
-    list-style: none;
 }
 footer ul li{
     margin-bottom: 10px;
@@ -327,7 +305,7 @@ footer ul li a:focus {
     margin-bottom: 10px;
 }
 .footer-bottom-sec {
-    border-top: 1px solid var(--secondary-50);
+    border-top: 1px solid var(--primary-50);
 }
 .cus-addresses-sec .map-img{
     object-fit: cover;
@@ -427,9 +405,6 @@ body .enquiry-form .btn:focus+.btn-primary,
 body .enquiry-form .btn:focus, 
 body .enquiry-form .btn:active:focus {
     border-color: var(--white);
-}
-.cus-copy-right ul .nav-link {
-    padding: .5rem 1rem;
 }
 /* Footer Section CSS Ends */
 
