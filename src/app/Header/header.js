@@ -2,7 +2,7 @@
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link';
-// import "../../../node_modules/bootstrap/dist/js/bootstrap.js"
+import "../../../node_modules/bootstrap/dist/js/bootstrap.js"
 
 
 export default function Header() {
