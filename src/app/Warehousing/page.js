@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 
 function Warehousing() {
   const Header = dynamic(() => import("../Header/header.js"), {
-    suspense: true,
+    ssr: false,
   });
   return (
     <>
