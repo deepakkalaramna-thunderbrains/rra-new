@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 
 import RootLayout from './layout.js';
 import './styles/index.css'

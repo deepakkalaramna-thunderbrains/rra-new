@@ -1,3 +1,6 @@
+'use client'
+
+
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
 
