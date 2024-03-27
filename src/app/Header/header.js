@@ -6,6 +6,13 @@ import "../../../node_modules/bootstrap/dist/js/bootstrap.js"
 
 
 export default function Header() {
+    
+    const lowercasePathname = window.location.pathname.toLowerCase();
+
+    if (lowercasePathname !== window.location.pathname.toLowerCase()) {
+        router.push(lowercasePathname);
+        return null; 
+    }
     return (
         <header>
         <div class="top-bar bg-secondary-dark">
