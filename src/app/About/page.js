@@ -8,11 +8,8 @@ import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
 import '../../app/styles/variables.css'
 
-export const metadata = {
-    title: "About Us | RRA Group",
-    description: "Welcome to RRA Group, where innovation meets excellence. Our journey began with a vision to redefine the standards of logistics, and today, we stand proud as a leading logistics company committed to delivering exceptional quality and service.",
-    keywords: "About Us, Who We Are, Logistics, Know More About Us, Reach Out"
-  };
+
+
 
 function About() {
     const Header = dynamic(() => import("../Header/header.js"), {
