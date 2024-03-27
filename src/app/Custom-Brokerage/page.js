@@ -8,7 +8,7 @@ function CustomBrokerage(){
         ssr: false,
     });
     return <>
-    {/* <Header/> */}
+    <Header/>
     {/* <!-- Hero Section Start --> */}
     <section class="cus-hero-sec">
         <div class="row">
@@ -103,7 +103,7 @@ function CustomBrokerage(){
             </div>
         </div>
     </section>
-    {/* <Footer/> */}
+    <Footer/>
     </>
 }
 

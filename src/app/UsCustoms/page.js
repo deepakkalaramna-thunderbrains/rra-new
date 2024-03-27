@@ -9,7 +9,7 @@ function UsCustoms(){
         ssr: false,
     });
     return <>
-    {/* <Header/> */}
+    <Header/>
     {/* <!-- Hero Section Start --> */}
     <section class="cus-hero-sec">
         <div class="row">
@@ -171,7 +171,7 @@ function UsCustoms(){
         </div>
     </section>
     {/* <!-- Clients Testimonials Section Ends --> */}
-    {/* <Footer/> */}
+    <Footer/>
     </>
 }
 export default UsCustoms

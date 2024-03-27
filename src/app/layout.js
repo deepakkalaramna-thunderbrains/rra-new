@@ -18,17 +18,17 @@ const Header = dynamic(() => import("./Header/header.js"), {
 export default function RootLayout({ children }) {
   return (
     <>
-      {/* <html lang="en">
-        <body className={inter.className}> */}
+      <html lang="en">
+        <body className={inter.className}>
           <div>
             <Header />
-            {/* <> */}
+            <>
             {children}
-            {/* </> */}
+            </>
             <Footer />
             </div>
-        {/* </body>
-      </html> */}
+        </body>
+      </html>
       <GoogleAnalytics gaId="G-8Y4Y5DLM5E" />
     </>
   );

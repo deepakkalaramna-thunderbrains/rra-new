@@ -15,7 +15,7 @@ function FreightServices2() {
       });
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             {/* <!-- Header Section Ends -->
 
     <!-- Hero Section Start --> */}
@@ -176,7 +176,7 @@ function FreightServices2() {
             </section>
 
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
