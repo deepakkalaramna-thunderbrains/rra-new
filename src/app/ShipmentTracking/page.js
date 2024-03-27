@@ -16,7 +16,7 @@ function ShipmentTracking() {
       });
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             {/* <!-- Header Section Ends -->
 
     <!-- Hero Section Start --> */}
@@ -153,7 +153,7 @@ function ShipmentTracking() {
             {/* <!-- Clients Testimonials Section Ends -->
 
     <!-- Footer Section Start --> */}
-            {/* <Footer /> */}
+            <Footer />
             {/* <!-- Footer Section Ends --> */}
 
 

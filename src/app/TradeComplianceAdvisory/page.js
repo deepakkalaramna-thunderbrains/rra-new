@@ -9,7 +9,7 @@ function TradeComplianceAdvisory(){
         ssr: false,
       });
     return <>
-            {/* <Header/> */}
+            <Header/>
             <section class="cus-hero-sec">
         <div class="row">
             <div class="col-md-12">
@@ -127,7 +127,7 @@ function TradeComplianceAdvisory(){
             </div>
         </div>
     </section>
-            {/* <Footer/> */}
+            <Footer/>
     
     </>
 }

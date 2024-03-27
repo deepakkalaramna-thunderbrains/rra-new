@@ -105,7 +105,7 @@ const ContactUs = () => {
   return (
     <>
       <>
-        {/* <Header /> */}
+        <Header />
         <section className="cus-hero-sec">
           <div className="row">
             <div className="col-md-12">
@@ -473,7 +473,7 @@ const ContactUs = () => {
             </div>
           </div>
         </section>
-        {/* <Footer /> */}
+        <Footer />
       </>
     </>
   );

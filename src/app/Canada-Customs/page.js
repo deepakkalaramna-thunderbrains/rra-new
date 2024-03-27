@@ -7,7 +7,7 @@ function CanadaCustoms(){
         ssr: false,
       });
     return <>
-    {/* <Header/>  */}
+    <Header/> 
 
     
     {/* <!-- Hero Section Start --> */}
@@ -165,7 +165,7 @@ function CanadaCustoms(){
     {/* <!-- Clients Testimonials Section Ends --> */}
 
 
-    {/* <Footer/> */}
+    <Footer/>
   
     </>
 }
