@@ -7,7 +7,7 @@ import Footer from "../Footer/footer"
 
 
 function DutyDrawbacks(){
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header.js"), {
         suspense: true,
       });
     return <>

@@ -25,7 +25,7 @@ const ContactUs = () => {
     companyName: "",
     messages: {},
   });
-  const Header = dynamic(() => import("./Header/header.js"), {
+  const Header = dynamic(() => import("../Header/header"), {
     suspense: true,
   });
 

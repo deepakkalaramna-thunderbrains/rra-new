@@ -3,7 +3,7 @@ import dynamic from "next/dynamic"
 import Footer from "../Footer/footer"
 
 function CanadaCustoms(){
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header"), {
         suspense: true,
       });
     return <>
