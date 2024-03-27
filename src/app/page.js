@@ -1,3 +1,5 @@
+'use client'
+
 import RootLayout from './layout.js';
 import './styles/index.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
