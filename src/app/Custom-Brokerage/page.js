@@ -1,13 +1,12 @@
 'use client'
 
-import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import dynamic from "next/dynamic"
 
 function CustomBrokerage(){
     const Header = dynamic(() => import("../Header/header.js"), {
         ssr: false,
-      });
+    });
     return <>
     <Header/>
     {/* <!-- Hero Section Start --> */}

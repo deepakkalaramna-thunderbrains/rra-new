@@ -1,7 +1,6 @@
 'use client'
 
 import dynamic from "next/dynamic"
-import Header from "../Header/header"
 import Footer from "../Footer/footer"
 
 
