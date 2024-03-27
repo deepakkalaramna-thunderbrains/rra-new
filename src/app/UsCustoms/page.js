@@ -5,7 +5,7 @@ import dynamic from "next/dynamic"
 import Footer from "../Footer/footer"
 
 function UsCustoms(){
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header.js"), {
         suspense: true,
     });
     return <>
