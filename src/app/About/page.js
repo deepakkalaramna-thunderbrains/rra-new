@@ -20,7 +20,7 @@ function About() {
       });
     return (
         <>
-            <Header />
+            {/* <Header /> */}
 
             <section className="cus-hero-sec">
                 <div className="row">
@@ -136,7 +136,7 @@ function About() {
                 </div>
             </section>
 
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

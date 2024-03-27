@@ -7,7 +7,7 @@ function NoMiniMax(){
         ssr: false,
       });
     return <>
-    <Header/>
+    {/* <Header/> */}
     {/* <!-- Hero Section Start --> */}
     <section class="cus-hero-sec">
         <div class="row">
@@ -153,7 +153,7 @@ function NoMiniMax(){
 
 
 
-    <Footer/>
+    {/* <Footer/> */}
     </>
 }
 

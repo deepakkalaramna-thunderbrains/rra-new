@@ -9,7 +9,7 @@ function Warehousing() {
   });
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       {/* <!-- Hero Section Start --> */}
       <section class="cus-hero-sec">
@@ -352,7 +352,7 @@ function Warehousing() {
       </section>
       {/* <!-- Frequently Asked Questions Ends --> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

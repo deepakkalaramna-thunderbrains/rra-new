@@ -10,7 +10,7 @@ function DutyDrawbacks(){
         ssr: false,
       });
     return <>
-    <Header/>
+    {/* <Header/> */}
 
     <section class="cus-hero-sec">
         <div class="row">
@@ -156,7 +156,7 @@ function DutyDrawbacks(){
     {/* <!-- Clients Testimonials Section Ends --> */}
 
 
-    <Footer/>
+    {/* <Footer/> */}
     </>
 }
 

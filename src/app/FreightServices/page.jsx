@@ -21,7 +21,7 @@ function FreightServices() {
     return (
         <div>
 
-            <Header />
+            {/* <Header /> */}
             {/* <!-- Header Section Ends -->
 
     <!-- Hero Section Start --> */}
@@ -189,7 +189,7 @@ function FreightServices() {
             {/* <!-- Frequently Asked Questions Ends -->
     
     <!-- Footer Section Start --> */}
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )

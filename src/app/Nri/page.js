@@ -9,7 +9,7 @@ function Nri() {
   });
   return (
   <>
-    <Header />
+    {/* <Header /> */}
     {/* <!-- Hero Section Start --> */}
     <section class="cus-hero-sec">
       <div class="row">
@@ -230,7 +230,7 @@ function Nri() {
     </section>
     {/* <!-- Frequently Asked Questions Ends --> */}
 
-    <Footer />
+    {/* <Footer /> */}
   </>);
 }
 

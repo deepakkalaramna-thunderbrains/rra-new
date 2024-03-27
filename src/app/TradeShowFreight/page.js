@@ -10,7 +10,7 @@ function TradeShowFreight() {
   });
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <section class="cus-hero-sec">
         <div class="row">
@@ -361,7 +361,7 @@ function TradeShowFreight() {
       </section>
       {/* <!-- Clients Testimonials Section Ends --> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
