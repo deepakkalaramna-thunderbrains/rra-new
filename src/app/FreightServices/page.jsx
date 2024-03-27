@@ -58,7 +58,7 @@ function FreightServices() {
                                     </button>
                                 </div>
                                 <div class="col-md-6 px-5 grid-experience">
-                                    <img class="w-100 img-fluid cover " src="/images/grid-experience.png" alt="" />
+                                    <img class="w-100 img-fluid cover " src="/images/seamless-logistics.jpg" alt="" />
 
                                 </div>
                             </div>
