@@ -4,7 +4,7 @@ import Footer from "../Footer/footer";
 import dynamic from "next/dynamic";
 
 function Nri() {
-  const Header = dynamic(() => import("./Header/header.js"), {
+  const Header = dynamic(() => import("../Header/header.js"), {
     suspense: true,
   });
   return (

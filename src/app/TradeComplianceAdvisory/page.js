@@ -5,7 +5,7 @@ import Footer from "../Footer/footer"
 
 
 function TradeComplianceAdvisory(){
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header.js"), {
         suspense: true,
       });
     return <>

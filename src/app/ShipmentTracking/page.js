@@ -11,7 +11,7 @@ import '../../app/styles/variables.css'
 
 
 function ShipmentTracking() {
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header.js"), {
         suspense: true,
       });
     return (

@@ -10,7 +10,7 @@ import '../../app/styles/variables.css'
 
 
 function FreightServices2() {
-    const Header = dynamic(() => import("./Header/header.js"), {
+    const Header = dynamic(() => import("../Header/header.js"), {
         suspense: true,
       });
     return (
