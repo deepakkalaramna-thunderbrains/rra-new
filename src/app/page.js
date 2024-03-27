@@ -12,7 +12,7 @@ import dynamic from 'next/dynamic.js';
 
 export default function Home() {
   const Header = dynamic(() => import("./Header/header.js"), {
-    suspense: true,
+    ssr: false,
   });
   return (
     <RootLayout>

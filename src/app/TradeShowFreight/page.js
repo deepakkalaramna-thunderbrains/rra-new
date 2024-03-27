@@ -6,7 +6,7 @@ import Footer from "../Footer/footer";
 
 function TradeShowFreight() {
   const Header = dynamic(() => import("../Header/header.js"), {
-    suspense: true,
+    ssr: false,
   });
   return (
     <>

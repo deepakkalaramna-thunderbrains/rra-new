@@ -15,7 +15,7 @@ export default function Main() {
     <>
       {/* <!-- Slider Section Start --> */}
       <section class="position-relative cus-banner overflow-hidden">
-        <div class="hero" data-arrows="true" data-autoplay="true">
+        <div class="hero" data-arrows="false" data-autoplay="false">
           <div class="hero-slide text-center">
             <img alt="" class="img-fluid cover" src="/images/slider-01.png" />
             <div class="header-content text-white position-absolute slide-content col-lg-12">

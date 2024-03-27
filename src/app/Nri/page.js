@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 
 function Nri() {
   const Header = dynamic(() => import("../Header/header.js"), {
-    suspense: true,
+    ssr: false,
   });
   return (
   <>

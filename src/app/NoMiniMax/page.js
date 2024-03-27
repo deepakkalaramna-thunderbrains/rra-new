@@ -4,7 +4,7 @@ import Footer from "../Footer/footer"
 
 function NoMiniMax(){
     const Header = dynamic(() => import("../Header/header.js"), {
-        suspense: true,
+        ssr: false,
       });
     return <>
     <Header/>

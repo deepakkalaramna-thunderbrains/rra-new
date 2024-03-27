@@ -6,7 +6,7 @@ import dynamic from "next/dynamic"
 
 function CustomBrokerage(){
     const Header = dynamic(() => import("../Header/header.js"), {
-        suspense: true,
+        ssr: false,
       });
     return <>
     <Header/>

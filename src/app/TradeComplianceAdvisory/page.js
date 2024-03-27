@@ -6,7 +6,7 @@ import Footer from "../Footer/footer"
 
 function TradeComplianceAdvisory(){
     const Header = dynamic(() => import("../Header/header.js"), {
-        suspense: true,
+        ssr: false,
       });
     return <>
             <Header/>

@@ -6,7 +6,7 @@ import Footer from "../Footer/footer"
 
 function UsCustoms(){
     const Header = dynamic(() => import("../Header/header.js"), {
-        suspense: true,
+        ssr: false,
     });
     return <>
     <Header/>

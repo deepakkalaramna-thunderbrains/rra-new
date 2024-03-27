@@ -26,7 +26,7 @@ const ContactUs = () => {
     messages: {},
   });
   const Header = dynamic(() => import("../Header/header"), {
-    suspense: true,
+    ssr: false,
   });
 
   const handleChange = (event) => {
@@ -42,7 +42,7 @@ const ContactUs = () => {
     const { email, telephone, message, firstName, lastName, companyName } =
       formData;
     let messagesToAdd = {};
-    let canLogin = true;
+    let canLogin = false;
     let regEx =
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 

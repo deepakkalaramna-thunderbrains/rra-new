@@ -13,7 +13,7 @@ import '../../app/styles/variables.css'
 
 function About() {
     const Header = dynamic(() => import("../Header/header.js"), {
-        suspense: true,
+        ssr: false,
       });
     return (
         <>

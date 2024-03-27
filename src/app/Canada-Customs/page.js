@@ -4,7 +4,7 @@ import Footer from "../Footer/footer"
 
 function CanadaCustoms(){
     const Header = dynamic(() => import("../Header/header"), {
-        suspense: true,
+        ssr: false,
       });
     return <>
     <Header/> 
