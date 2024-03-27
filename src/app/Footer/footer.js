@@ -5,7 +5,9 @@ import '../../../node_modules/slick-carousel/slick/slick.css'
 export default function Footer(){
 let date = new Date()
 let currentYear = date.getFullYear()
-return(<footer class="bg-secondary-dark pt-5">
+return(
+    <h1>This is a footer</h1>)}
+{/* <footer class="bg-secondary-dark pt-5">
 <div class="container-fluid my-3">
     <div class="row py-4">
         <div class="col-md-3">
@@ -189,4 +191,4 @@ return(<footer class="bg-secondary-dark pt-5">
         </div>
     </div>
 </div>
-</footer>)}
+</footer>)} */}

@@ -8,7 +8,8 @@ import "../../../node_modules/bootstrap/dist/js/bootstrap.js"
 export default function Header() {
     return (
         <header>
-        <div class="top-bar bg-secondary-dark">
+            <h1>This is a header</h1>
+        {/* <div class="top-bar bg-secondary-dark">
             <div class="w-100 h-100 d-flex align-items-center justify-content-between">
                 <ul class="list-unstyled m-0 mx-3 d-flex align-items-center p-2 cus-social-media">
                     <li class="mb-0">
@@ -149,7 +150,7 @@ export default function Header() {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> */}
     </header>
     )
 }
