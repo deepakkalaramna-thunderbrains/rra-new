@@ -1,8 +1,11 @@
 'use client'
 
-// import Header from "../Header/header";
 import dynamic from "next/dynamic";
 import Footer from "../Footer/footer";
+import "../styles/breakpoints.css"
+import "../styles/custom.css"
+import "../styles/index.css"
+import "../styles/variables.css"
 
 function TradeShowFreight() {
   const Header = dynamic(() => import("../Header/header.js"), {

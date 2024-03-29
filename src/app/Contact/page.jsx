@@ -91,7 +91,7 @@ const ContactUs = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (handleLoginRequirements()) {
+    // if (handleLoginRequirements()) {
       const response = await fetch("/api/contact", {
               method: "POST",
               headers: {
@@ -99,7 +99,7 @@ const ContactUs = () => {
               },
               body: JSON.stringify(formData),
             });
-    }
+    // }
   };
 
   return (

@@ -69,7 +69,7 @@ function About() {
                             <div className="w-100 h-100 position-relative ">
                                 <img className="w-100 img-fluid cover" src="/images/our-mission.jpg" width="500" height="500" alt="" />
                                 <div className="w-100 position-absolute top-50 start-50 translate-middle py-5 px-2 text-center">
-                                    <h2 className="m-0 text-uppercase text-white">About Us</h2>
+                                    <h2 className="m-0 text-uppercase text-white">Mission</h2>
                                     <p className="m-0 pt-4 text-white">Our mission is simple: wholeheartedly serving our customers by simplifying modern logistics <br /> complexities, ensuring timely deliveries, and promoting sustainability.</p>
                                 </div>
                             </div>
