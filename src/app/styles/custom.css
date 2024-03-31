@@ -1010,4 +1010,7 @@ footer .card .btn.btn-sm {
     margin-left: 15px;
     border-radius: 4px;
 }
+footer:has(.cookie) .footer-bottom-sec {
+    padding-bottom: 120px !important;
+}
 /* Cookies Section Css Ends */
