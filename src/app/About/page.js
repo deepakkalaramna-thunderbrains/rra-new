@@ -3,13 +3,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 import dynamic from 'next/dynamic';
 import Footer from "../Footer/footer";
-// import '../../app/styles/breakpoints.css'
-// import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
-// import '../../app/styles/variables.css'
-
-
-
 
 function About() {
     const Header = dynamic(() => import("../Header/header.js"), {
@@ -24,7 +18,7 @@ function About() {
                     <div className="col-md-12">
                         <div className="w-100 h-100 position-relative">
                             <img className="w-100 img-fluid cover" src="/images/hero-about-us.jpg" height="500" width="500" />
-                            <h1 className="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white font-900">About Us</h1>
+                            <h1 className="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white font-900">About Us</h1>
                         </div>
                     </div>
                 </div>
@@ -39,14 +33,14 @@ function About() {
                         </div>
                         <div className="col-md-11 mx-auto pt-3">
                             <div className="row align-items-center">
-                                <div className="col-md-6 px-5">
+                                <div className="col-lg-6 px-5">
                                     <img className="w-100 img-fluid cover" src="/images/plane-trucks-are-flying.jpg" alt="" />
                                 </div>
-                                <div className="col-md-6 px-5">
+                                <div className="col-lg-6 px-5">
                                     <h3>Founded by Gursewak Singh,</h3>
                                     <p>RRA Group (Rapid Resourceful Approach) is a North American logistics and supply chain provider with a unique IT-driven approach. We operate under three distinct entities, including RRA Trucking Ltd. in Canada, RRA Trucking Inc. in the USA, and HGA Logistics in Canada.</p>
                                     <p>Just like our name, we embody a rapid and resourceful approach to providing comprehensive logistics solutions. We specialize in end-to-end services, from efficient customs clearance to a wide array of versatile transportation modes. In addition, we offer multiple e-commerce software solutions that empower your business for success in today's highly competitive landscape. All our endeavors are driven by a strong focus on sustainability and ensuring a brighter future.</p>
-                                    <button type="submit" className="btn-primary btn-lg mt-4 py-3 px-4">
+                                    <button type="submit" className="btn-primary btn mt-4 py-3 px-4">
                                         <span className="d-flex align-items-center justify-content-center text-uppercase">
                                             Take My Order
                                             <svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -82,7 +76,7 @@ function About() {
             <section className="py-5 cus-client-testimonials">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-6 ms-auto py-3">
+                        <div className="col-lg-6 ms-auto py-3">
                             <div className="testimonial-sec overflow-hidden">
                                 <h3 className="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                                 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">

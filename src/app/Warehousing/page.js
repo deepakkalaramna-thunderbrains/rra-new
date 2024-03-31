@@ -1,7 +1,6 @@
 'use client'
 import Footer from "../Footer/footer";
 import dynamic from "next/dynamic";
-// import "../styles/custom.css"
 
 function Warehousing() {
   const Header = dynamic(() => import("../Header/header.js"), {
@@ -36,7 +35,7 @@ function Warehousing() {
           <div class="row">
             <div class="col-md-11 mx-auto py-5">
               <div class="row align-items-center">
-                <div class="col-md-6 px-5">
+                <div class="col-lg-6 px-5">
                   <h2 class="mb-3 text-uppercase">Efficiency and Security</h2>
                   <p>
                     In today's E-commerce driven landscape, many businesses lack
@@ -69,7 +68,7 @@ function Warehousing() {
                     </span>
                   </button>
                 </div>
-                <div class="col-md-6 px-5">
+                <div class="col-lg-6 px-5">
                   <img
                     class="w-100 img-fluid cover"
                     src="/images/efficiency-and-security.jpg"
@@ -131,7 +130,7 @@ function Warehousing() {
       <section class="pt-5 cus-experience-rra">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
@@ -164,7 +163,7 @@ function Warehousing() {
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
@@ -208,7 +207,7 @@ function Warehousing() {
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg

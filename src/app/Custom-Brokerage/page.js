@@ -15,7 +15,7 @@ function CustomBrokerage(){
             <div class="col-md-12">
                 <div class="w-100 h-100 position-relative">
                     <img class="w-100 img-fluid cover" src="/images/hero-CUSTOM-BROKERAGE.jpg" alt="" />
-                    <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">CUSTOM BROKERAGE</h1>
+                    <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">CUSTOM BROKERAGE</h1>
                 </div>
             </div>
         </div>
@@ -31,13 +31,13 @@ function CustomBrokerage(){
                 </div>
                 <div class="col-md-11 mx-auto pt-3">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <img class="w-100 img-fluid cover" src="/images/brokerage-services.jpg" alt="" />
                         </div>
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <h4 class="mb-3">What may seem easy at first can quickly become a complex challenge without the right customs brokerage partner.</h4>
                             <p>At RRA, we bring extensive experience to the table. Our custom brokerage services are tailored to your unique needs, whether it involves managing customs clearance, ensuring regulatory compliance, or optimizing duty and tax assessments. We specialize in both Canadian and U.S. customs, providing seamless solutions that keep your supply chain moving efficiently.</p>
-                            <button type="submit" class="btn btn-primary btn-lg mt-4">
+                            <button type="submit" class="btn btn-primary btn mt-4">
                                 <span class="d-flex align-items-center justify-content-center">
                                     Take Me In
                                     <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

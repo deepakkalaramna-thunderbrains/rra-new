@@ -11,12 +11,12 @@ export default function Footer(){
         <footer class="bg-secondary-dark pt-5">
             <div class="container-fluid my-3">
                 <div class="row py-4">
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="d-flex footer-logo">
                             <img src="/images/footer-logo.svg" alt="" />
                         </div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-lg-9">
                         <div class="row">
                             <div class="col-md-3">
                                 <h6 class="mb-4">Explore</h6>

@@ -3,11 +3,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 import dynamic from 'next/dynamic';
 import Footer from "../Footer/footer";
-// import '../../app/styles/breakpoints.css'
-// import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
-// import '../../app/styles/variables.css'
-
 
 function FreightServices2() {
     const Header = dynamic(() => import("../Header/header.js"), {
@@ -24,7 +20,7 @@ function FreightServices2() {
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
                             <img class="w-100 img-fluid cover" src="/images/hero-freight-2.png" alt="" />
-                            <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
+                            <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
                         </div>
                     </div>
                 </div>
@@ -40,14 +36,14 @@ function FreightServices2() {
                         </div>
                         <div class="col-md-11 mx-auto pt-3">
                             <div class="row align-items-center">
-                                <div class="col-md-6 px-5">
+                                <div class="col-lg-6 px-5">
                                     <img class="w-100 img-fluid cover" src="/images/grid-services.png" alt="" />
                                 </div>
-                                <div class="col-md-6 px-5">
+                                <div class="col-lg-6 px-5">
                                     <h4 class="mb-4">Our secret ingredient? Over 13 years of freight-forwarding expertise with a flawless 100% success rate.</h4>
                                     <p>Have you ever felt lost when dealing with a logistics forwarder?</p>
                                     <p>Don't worry; we've got your back. We're here to simplify the process for you. Our team of experts will walk you through it, helping you choose the best carrier options that are not only cost-effective but also time-efficient and ultra-reliable.</p>
-                                    <button type="submit" class="btn-primary btn-lg mt-4 py-3 px-4">
+                                    <button type="submit" class="btn-primary btn mt-4 py-3 px-4">
                                         <span class="d-flex align-items-center justify-content-center text-uppercase">
                                             Contact Us
                                             <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -145,7 +141,7 @@ function FreightServices2() {
             <section class="py-5 cus-orange-two-column">
                 <div class="container-fluid">
                     <div class="row py-5">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="oragne-gradient p-5 h-100">
                                 <div class="row">
                                     <div class="col-md-8">
@@ -158,7 +154,7 @@ function FreightServices2() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="oragne-gradient p-5 h-100">
                                 <div class="row">
                                     <div class="col-md-8">

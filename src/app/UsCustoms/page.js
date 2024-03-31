@@ -29,7 +29,7 @@ function UsCustoms(){
             <div class="row">
                 <div class="col-md-11 mx-auto pt-5">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <h2 class="mb-3 text-uppercase">
                                 Efficient Cross-Border Trade.
                             </h2>
@@ -43,7 +43,7 @@ function UsCustoms(){
                                 </span>
                             </button>
                         </div>
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <img class="w-100 img-fluid cover" src="/images/efficient-cross-border.jpg" alt="" />
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function UsCustoms(){
                 <div class="col-md-12 my-3">
                     <h2 class="text-center text-uppercase">What We Offer</h2>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -79,7 +79,7 @@ function UsCustoms(){
                         <p class="text-white mb-0">Our customs expertise expedites the customs clearance process, reducing the risk of border delays.</p>
                     </div>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -91,7 +91,7 @@ function UsCustoms(){
                         <p class="text-white mb-0">We ensure your goods meet all regulatory requirements, reducing the risk of penalties and fines.</p>
                     </div>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -120,7 +120,7 @@ function UsCustoms(){
     <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 ms-auto py-3">
+                <div class="col-lg-6 ms-auto py-3">
                     <div class="testimonial-sec overflow-hidden">
                         <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

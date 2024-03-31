@@ -31,10 +31,10 @@ function TradeComplianceAdvisory(){
                 </div>
                 <div class="col-md-11 mx-auto pt-3">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <img class="w-100 img-fluid cover" src="/images/trade-compliance.jpg" alt="" />
                         </div>
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <p>Many businesses struggle with the intricate web of international trade regulations. They often face delays, fines, and compliance challenges that hinder their global expansion.</p>
                             <p>As a reliable logistics service provider, we provide expert trade compliance advisory services to simplify global trade. Our team of specialists navigates the complexities of customs, ensuring your cross-border operations comply with regulations.</p>
                             <p>We offer invaluable guidance on customs clearance, tariff classification, and documentation, reducing risks and enhancing your trade efficiency.</p>
@@ -77,7 +77,7 @@ function TradeComplianceAdvisory(){
     <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 ms-auto py-3">
+                <div class="col-lg-6 ms-auto py-3">
                     <div class="testimonial-sec overflow-hidden">
                         <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

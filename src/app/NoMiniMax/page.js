@@ -1,11 +1,7 @@
 'use client'
 import dynamic from "next/dynamic"
 import Footer from "../Footer/footer"
-// import "../styles/breakpoints.css"
-// import "../styles/custom.css"
 import "../styles/index.css"
-// import "../styles/variables.css"
-
 
 function NoMiniMax(){
     const Header = dynamic(() => import("../Header/header.js"), {
@@ -32,7 +28,7 @@ function NoMiniMax(){
             <div class="row">
                 <div class="col-md-11 mx-auto pt-5">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <h2 class="mb-3 text-uppercase">
                                 Ship without conflict
                             </h2>
@@ -47,7 +43,7 @@ function NoMiniMax(){
                                 </span>
                             </button>
                         </div>
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <img class="w-100 img-fluid cover" src="/images/ship-without-conflict.jpg" alt="" />
                         </div>
                     </div>
@@ -61,7 +57,7 @@ function NoMiniMax(){
     <section class="pb-5 cus-oragne-two-column">
         <div class="container-fluid">
             <div class="row py-5">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="oragne-gradient p-5 h-100">
                         <div class="row">
                             <div class="col-md-8">
@@ -76,7 +72,7 @@ function NoMiniMax(){
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="oragne-gradient p-5 h-100">
                         <div class="row">
                             <div class="col-md-8">
@@ -100,7 +96,7 @@ function NoMiniMax(){
     <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 ms-auto py-3">
+                <div class="col-lg-6 ms-auto py-3">
                     <div class="testimonial-sec overflow-hidden">
                         <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
