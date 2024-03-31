@@ -4,10 +4,10 @@ import '../../../node_modules/slick-carousel/slick/slick.css'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import Footer from "../Footer/footer";
-import '../../app/styles/breakpoints.css'
-import '../../app/styles/custom.css'
+// import '../../app/styles/breakpoints.css'
+// import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
-import '../../app/styles/variables.css'
+// import '../../app/styles/variables.css'
 
 
 

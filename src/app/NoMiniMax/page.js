@@ -1,10 +1,10 @@
 'use client'
 import dynamic from "next/dynamic"
 import Footer from "../Footer/footer"
-import "../styles/breakpoints.css"
-import "../styles/custom.css"
+// import "../styles/breakpoints.css"
+// import "../styles/custom.css"
 import "../styles/index.css"
-import "../styles/variables.css"
+// import "../styles/variables.css"
 
 
 function NoMiniMax(){

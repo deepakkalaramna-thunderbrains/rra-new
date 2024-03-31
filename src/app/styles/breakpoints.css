@@ -24,7 +24,7 @@
         font-size: 14px;
     }
     .footer-logo img {
-        max-width: 250px;
+        max-width: 240px;
     }
     body .btn {
         min-width: 220px;
@@ -45,8 +45,11 @@
     .cus-rra-group-companies .oragne-gradient img.contain {
         max-width: 70px;
     }
-    .cus-rra-group-companies .oragne-gradient button {
+    .cus-rra-group-companies .oragne-gradient .btn {
         font-size: 16px;
+    }
+    .cus-copy-right ul .nav-link {
+        font-size: 14px;
     }
 }
 @media (max-width: 1399.98px) { 
@@ -54,7 +57,7 @@
 }
 @media (max-width: 1199.98px) { 
     header .navbar-brand {
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
     header .navbar-brand img {
         max-width: 100px;
@@ -62,10 +65,27 @@
     .adresses-list ul li {
         margin-bottom: 20px;
     }
+    header .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.6rem;
+        padding-left: 0.6rem;
+        font-size: 12px;
+    }
+    .top-bar-menus li {
+        min-width: 180px;
+    }
+    .cus-rra-group-companies .oragne-gradient.p-5 {
+        padding: 2rem !important;
+    }
+    .footer-logo img {
+        max-width: 200px;
+    }
+    footer h6 {
+        font-size: 14px;
+    }
 }
 @media (max-width: 991.98px) { 
     .footer-logo img {
-        max-width: 220px;
+        max-width: 180px;
     }
     .footer-logo {
         margin-bottom: 40px;
@@ -114,9 +134,6 @@
     header .navbar-expand-lg .navbar-nav .nav-link{
         font-size: 14px;
     }
-    .footer-logo img {
-        max-width: 200px;
-    }
     footer ul {
         padding-bottom: 30px;
     }
@@ -146,9 +163,6 @@
     }
 }
 @media (max-width: 480.98px) { 
-    .footer-logo img {
-        max-width: 180px;
-    }
     .footer-bottom-sec .cus-copy-right {
         flex-direction: column;
         gap: 15px;
