@@ -18,7 +18,7 @@ export default function Footer(){
                     </div>
                     <div class="col-lg-9">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6">
                                 <h6 class="mb-4">Explore</h6>
                                 <ul class="list-unstyled m-0">
                                     <li>
@@ -35,7 +35,7 @@ export default function Footer(){
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6">
                                 <h6 class="mb-4">
                                     Custom Brokerage
                                     <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -57,7 +57,7 @@ export default function Footer(){
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6">
                                 <h6 class="mb-4">
                                     Freight Forwarding
                                     <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -79,7 +79,7 @@ export default function Footer(){
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-3 footer-contact-us">
+                            <div class="col-md-3 col-sm-6 footer-contact-us">
                                 <h6 class="mb-4">
                                     Contact Us
                                     <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

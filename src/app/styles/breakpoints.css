@@ -196,6 +196,63 @@
     .cus-oragne-one-column ul {
         grid-template-columns: repeat(1, 1fr);
     }
+    .footer-bottom-sec .cus-copy-right {
+        flex-direction: column;
+    }
+    .footer-logo img {
+        max-width: 150px;
+    }
+    .adresses-list ul li svg {
+        width: 30px;
+        height: 30px;
+    }
+    .adresses-list ul li {
+        margin-bottom: 10px;
+    }
+    .map-addresses .adresses-list {
+        padding: 20px;
+    }
+    .map-addresses {
+        gap: 10px;
+        left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-width: calc(100% - 24px);
+    }
+    .who-we-track {
+        max-width: 55%;
+    }
+    .top-bar .align-items-center.justify-content-between {
+        flex-direction: column;
+    }
+    .top-bar-menus li a {
+        font-size: 12px;
+    }
+    .top-bar-menus li {
+        min-width: 140px;
+    }
+    footer .card {
+        font-size: 14px;
+    }
+    .cus-our-mission {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .testimonial-sec h3 {
+        font-size: 28px;
+    }
+    .testimonial-sec .carousel-caption p {
+        font-size: 16px;
+    }
+    .cus-hero-sec h1 {
+        padding: 0 12px;
+    }
+    .cus-various-industries ul li h5 {
+        font-size: 16px;
+    }
 }
 @media (max-width: 575.98px) { 
     .cus-numbering .numbering-list {
@@ -204,6 +261,33 @@
     .cus-numbering.py-5 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 12px;
+    }
+    p {
+        font-size: 14px;
+    }
+    body .btn {
+        min-width: 200px;
+    }
+    body .btn.py-3.px-4 {
+        padding: 0.6rem 0.4rem !important;
     }
 }
 @media (max-width: 480.98px) { 
@@ -214,5 +298,20 @@
     .navbar-collapse button.btn {
         min-width: 100%;
         margin-bottom: 10px;
+    }
+    .cus-various-industries ul li h5 {
+        font-size: 14px;
+    }
+    .testimonial-sec h3 {
+        font-size: 24px;
+    }
+    .testimonial-sec .carousel-caption p {
+        font-size: 14px;
+    }
+    .top-bar-menus li {
+        min-width: 30%;
+    }
+    .testimonial-sec .carousel-inner {
+        max-width: calc(100% - 50px);
     }
 } 
