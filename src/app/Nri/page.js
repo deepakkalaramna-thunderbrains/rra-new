@@ -36,7 +36,7 @@ function Nri() {
         <div class="row">
           <div class="col-md-11 mx-auto py-5">
             <div class="row align-items-center">
-              <div class="col-md-6 px-5">
+              <div class="col-lg-6 px-5">
                 <h4 class="mb-3">
                   U.S. firms aspiring to reach Canadian markets must grasp the
                   Non-Resident Importer (NRI) program's nuances.
@@ -67,7 +67,7 @@ function Nri() {
                   </span>
                 </button>
               </div>
-              <div class="col-md-6 px-5">
+              <div class="col-lg-6 px-5">
                 <img
                   class="w-100 img-fluid cover"
                   src="/images/US-firms-aspiring.jpg"
@@ -87,14 +87,14 @@ function Nri() {
         <div class="row">
           <div class="col-md-12 mx-auto py-5">
             <div class="row align-items-center">
-              <div class="col-md-6 px-5">
+              <div class="col-lg-6 px-5">
                 <img
                   class="w-100 img-fluid cover"
                   src="/images/seamless-cross-border.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-md-6 px-5">
+              <div class="col-lg-6 px-5">
                 <h2 class="mb-3 text-uppercase text-white">
                   Seamless Cross-Border Solutions
                 </h2>

@@ -6,14 +6,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import dynamic from "next/dynamic";
 import Footer from "../Footer/footer";
-import '../../app/styles/breakpoints.css'
-import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
-import '../../app/styles/variables.css'
-
-
-
-
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -115,7 +108,7 @@ const ContactUs = () => {
                   src="/images/hero-contact-us.png"
                   alt=""
                 />
-                <h1 className="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
+                <h1 className="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">
                   Contact Us
                 </h1>
               </div>
@@ -126,7 +119,7 @@ const ContactUs = () => {
         <section className="cus-form-enq cus-contact-form">
           <div className="container-fluid p-0">
             <div className="row m-0">
-              <div className="col-md-6 p-0 bg-grey-light">
+              <div className="col-lg-6 p-0 bg-grey-light">
                 <div className="position-relative h-100 cus-addresses-sec">
                   <div className="map-addresses">
                     <h4 className="w-100 mb-0 text-left">
@@ -311,14 +304,14 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 p-0">
+              <div className="col-lg-6 p-0">
                 <div className="w-100 enquiry-form p-5">
                   <h4 className="text-white mb-4 fw-bold">
                     Need to make an inquiry?
                   </h4>
                   <form onSubmit={handleSubmit}>
                     <div className="row m-0">
-                      <div className="col-md-6 mb-2 px-1">
+                      <div className="col-lg-6 mb-2 px-1">
                         <input
                           value={formData.firstName}
                           id="firstName"
@@ -329,7 +322,7 @@ const ContactUs = () => {
                           name="name"
                         />
                       </div>
-                      <div className="col-md-6 mb-2 px-1">
+                      <div className="col-lg-6 mb-2 px-1">
                         <input
                           value={formData.lastName}
                           id="lastName"
@@ -351,7 +344,7 @@ const ContactUs = () => {
                           name="companyName"
                         />
                       </div>
-                      <div className="col-md-6 mb-2 px-1">
+                      <div className="col-lg-6 mb-2 px-1">
                         <input
                           value={formData.email}
                           id="email"
@@ -362,7 +355,7 @@ const ContactUs = () => {
                           name="email"
                         />
                       </div>
-                      <div className="col-md-6 mb-2 px-1">
+                      <div className="col-lg-6 mb-2 px-1">
                         <input
                           value={formData.telephone}
                           id="telephone"

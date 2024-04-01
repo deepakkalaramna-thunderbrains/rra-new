@@ -3,11 +3,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
 import Footer from "../Footer/footer";
 import dynamic from 'next/dynamic';
-import '../../app/styles/breakpoints.css'
-import '../../app/styles/custom.css'
 import '../../app/styles/index.css'
-import '../../app/styles/variables.css'
-
 
 
 function ShipmentTracking() {
@@ -25,7 +21,7 @@ function ShipmentTracking() {
                     <div class="col-md-12">
                         <div class="w-100 h-100 position-relative">
                             <img class="w-100 img-fluid cover" src="/images/hero-plane-trucks-are-flying.jpg" alt="" />
-                            <h1 class="m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
+                            <h1 class="w-100 m-0 text-center text-uppercase position-absolute top-50 start-50 translate-middle text-white">Freight Services</h1>
                         </div>
                     </div>
                 </div>
@@ -41,7 +37,7 @@ function ShipmentTracking() {
                         </div>
                         <div class="col-md-11 mx-auto pt-3">
                             <div class="row align-items-center">
-                                <div class="col-md-6 px-5">
+                                <div class="col-lg-6 px-5">
                                     <ul class="list-unstyled p-0">
                                         <li class="w-100 d-flex align-items-start mb-3">
                                             <div class="list-icon">
@@ -77,7 +73,7 @@ function ShipmentTracking() {
                                             </div>
                                         </li>
                                     </ul>
-                                    <button type="submit" class="btn-primary btn-lg mt-4 py-3 px-4">
+                                    <button type="submit" class="btn-primary btn mt-4 py-3 px-4">
                                         <span class="d-flex align-items-center justify-content-center text-uppercase">
                                             Connect With us
                                             <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -86,7 +82,7 @@ function ShipmentTracking() {
                                         </span>
                                     </button>
                                 </div>
-                                <div class="col-md-6 px-5">
+                                <div class="col-lg-6 px-5">
                                     <img class="w-100 img-fluid cover" src="/images/digital-composite-businessman-working-map.jpg" alt="" />
                                 </div>
                             </div>
@@ -100,7 +96,7 @@ function ShipmentTracking() {
             <section class="py-5 cus-client-testimonials">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-6 ms-auto py-3">
+                        <div class="col-lg-6 ms-auto py-3">
                             <div class="testimonial-sec overflow-hidden">
                                 <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

@@ -29,12 +29,12 @@ function CanadaCustoms(){
             <div class="row">
                 <div class="col-md-11 mx-auto pt-5">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-4">
+                        <div class="col-lg-6 px-4">
                             <h2 class="mb-3 text-uppercase">
                                 Streamlined Cross-Border Trade
                             </h2>
                             <p>Navigating the complexities of customs regulations is essential for any business involved in international trade. At RRA Group, we specialize in Canadian customs brokerage services, ensuring a smooth and efficient flow of goods across the border.</p>
-                            <button type="submit" class="btn btn-primary btn-lg mt-4">
+                            <button type="submit" class="btn btn-primary btn mt-4">
                                 <span class="d-flex align-items-center justify-content-center">
                                     Contact Us
                                     <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -43,7 +43,7 @@ function CanadaCustoms(){
                                 </span>
                             </button>
                         </div>
-                        <div class="col-md-6 px-4">
+                        <div class="col-lg-6 px-4">
                             <img class="w-100 img-fluid cover" src="/images/streamlined.jpg" alt="" />
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function CanadaCustoms(){
                 <div class="col-md-12 my-3">
                     <h2 class="text-center text-uppercase">What We Offer</h2>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -79,7 +79,7 @@ function CanadaCustoms(){
                         <p class="text-white mb-0">We facilitate the customs clearance process, ensuring your goods comply with Canadian regulations, minimizing delays, and avoiding costly penalties.</p>
                     </div>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -92,7 +92,7 @@ function CanadaCustoms(){
                         <p class="text-white mb-0">Our experts handle all the necessary documentation, including invoices, certificates, and permits, ensuring everything is for customs clearance.</p>
                     </div>
                 </div>
-                <div class="col-md-4 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -112,7 +112,7 @@ function CanadaCustoms(){
     <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 ms-auto py-3">
+                <div class="col-lg-6 ms-auto py-3">
                     <div class="testimonial-sec overflow-hidden">
                         <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

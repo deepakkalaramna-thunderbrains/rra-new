@@ -30,13 +30,13 @@ function DutyDrawbacks(){
             <div class="row">
                 <div class="col-md-11 mx-auto pt-5">
                     <div class="row align-items-center">
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <h4 class="mb-3">
                                 Managing the supply chain of international trade involves numerous financial considerations. One such aspect that often goes unnoticed is duty drawbacks.
                             </h4>
                             <p>Duty Drawback is a customs program that allows you to recover the customs duties and taxes paid on imported goods when they are subsequently exported.</p>
                             <p>At RRA Group, we recognize the importance of optimizing your trade operations, and our Duty Drawback services are tailored to do just that.</p>
-                            <button type="submit" class="btn btn-primary btn-lg mt-4">
+                            <button type="submit" class="btn btn-primary btn mt-4">
                                 <span class="d-flex align-items-center justify-content-center">
                                     I'm Convinced
                                     <svg class="ms-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -45,7 +45,7 @@ function DutyDrawbacks(){
                                 </span>
                             </button>
                         </div>
-                        <div class="col-md-6 px-5">
+                        <div class="col-lg-6 px-5">
                             <img class="w-100 img-fluid cover" src="/images/supply-chain.jpg" alt="" />
                         </div>
                     </div>
@@ -62,7 +62,7 @@ function DutyDrawbacks(){
                 <div class="col-md-12 my-3">
                     <h2 class="text-center text-uppercase">How Can We Help?</h2>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-lg-6 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -83,7 +83,7 @@ function DutyDrawbacks(){
                         <p class="text-white mb-0">Our experts comprehensively analyze your trade operations to identify eligible duty drawbacks, ensuring you don't miss out on any potential savings.</p>
                     </div>
                 </div>
-                <div class="col-md-6 my-3">
+                <div class="col-lg-6 my-3">
                     <div class="w-100 h-100 p-5 bg-secondary-dark">
                         <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -103,7 +103,7 @@ function DutyDrawbacks(){
     <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 ms-auto py-3">
+                <div class="col-lg-6 ms-auto py-3">
                     <div class="testimonial-sec overflow-hidden">
                         <h3 class="text-white text-uppercase pb-4 mb-4">Testimonials</h3>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

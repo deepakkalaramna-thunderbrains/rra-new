@@ -110,13 +110,13 @@ export default function Main() {
 
     <!-- Our Services Section Start --> */}
       <section class="pt-5 cus-our-services">
-        <div class="row">
-          <div class="col-md-12 py-4">
+        <div class="row m-0">
+          <div class="col-md-12 py-4 px-0">
             <h2 class="m-0 text-center text-uppercase">Our Key Services</h2>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12 px-0">
             <div class="row m-0 cus-gap">
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
@@ -133,7 +133,7 @@ export default function Main() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <a href = "/Custom-Brokerage">
                 <div class="service-inner position-relative overflow-hidden">
                   <img
@@ -151,7 +151,7 @@ export default function Main() {
                   </div>
                 </div></a>
               </div>
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <a href = "/FreightForwarding">
                 <div class="service-inner position-relative overflow-hidden">
                   <img
@@ -172,7 +172,7 @@ export default function Main() {
                 </div>
                 </a>
               </div>
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <a>
                 <div class="service-inner position-relative overflow-hidden">
                   <img
@@ -190,7 +190,7 @@ export default function Main() {
                   </div>
                 </div></a>
               </div>
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <div class="service-inner position-relative overflow-hidden">
                   <img
                     class="w-100 img-fluid"
@@ -208,7 +208,7 @@ export default function Main() {
                 </div>
               </div>
               {/* <a href = "/Warehousing"> */}
-              <div class="col-md-4 p-0 service-list">
+              <div class="col-lg-4 p-0 service-list">
                 <a href="/Warehousing">
                 <div class="service-inner position-relative overflow-hidden">
                   <img
@@ -280,7 +280,7 @@ export default function Main() {
                 <div class="col-md-12 py-5">
                     <h2 class="m-0 text-center text-uppercase">RRA GROUP COMPANIES</h2>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="oragne-gradient p-5 h-100">
                         <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Ltd</h4>
@@ -294,7 +294,7 @@ export default function Main() {
                         </button>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="oragne-gradient p-5 h-100">
                         <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">RRA Trucking Inc.</h4>
@@ -308,7 +308,7 @@ export default function Main() {
                         </button>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="oragne-gradient p-5 h-100">
                         <img class="d-flex align-items-center justify-content-center img-fluid contain" src="/images/company-logo.png" alt=""></img>
                         <h4 class="text-white text-uppercase my-4 pt-2">HGA Logistics Inc.</h4>
@@ -330,7 +330,7 @@ export default function Main() {
       <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 ms-auto py-3">
+            <div class="col-lg-6 ms-auto py-3">
               <div class="testimonial-sec overflow-hidden">
                 <h3 class="text-white text-uppercase pb-4 mb-4">
                   Testimonials
@@ -476,7 +476,7 @@ export default function Main() {
       <section class="py-5 my-5 cus-joim-our-team text-center">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 mx-auto">
+            <div class="col-lg-6 mx-auto">
               <h2 class="mb-3 text-uppercase">JOIN OUR TEAM</h2>
               <p>
                 At RRA Group, personal growth is at the heart of our culture. We
@@ -519,7 +519,7 @@ export default function Main() {
       <section class="mb-5 cus-form-enq">
         <div class="container-fluid p-0">
           <div class="row m-0">
-            <div class="col-md-6 p-0">
+            <div class="col-lg-6 p-0">
               <div class="w-100 enquiry-form p-5">
                 <h2 class="text-white mb-4 text-uppercase fw-bold">
                   WE ARE HERE TO HELP
@@ -573,7 +573,7 @@ export default function Main() {
                 </form>
               </div>
             </div>
-            <div class="col-md-6 p-0">
+            <div class="col-lg-6 p-0">
               <div class="position-relative h-100 cus-addresses-sec">
                 <div class="w-100 h-100">
                   <img class="img-fluid h-100 map-img" src="/images/map.png" />

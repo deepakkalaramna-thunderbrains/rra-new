@@ -2,10 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Footer from "../Footer/footer";
-import "../styles/breakpoints.css"
-import "../styles/custom.css"
 import "../styles/index.css"
-import "../styles/variables.css"
 
 function TradeShowFreight() {
   const Header = dynamic(() => import("../Header/header.js"), {
@@ -39,7 +36,7 @@ function TradeShowFreight() {
           <div class="row">
             <div class="col-md-11 mx-auto pt-5">
               <div class="row align-items-center">
-                <div class="col-md-6 px-5">
+                <div class="col-lg-6 px-5">
                   <h2 class="mb-3 text-uppercase">
                     Seamless Logistics for Your Event Success
                   </h2>
@@ -68,7 +65,7 @@ function TradeShowFreight() {
                     </span>
                   </button>
                 </div>
-                <div class="col-md-6 px-5">
+                <div class="col-lg-6 px-5">
                   <img
                     class="w-100 img-fluid cover"
                     src="/images/seamless-logistics.jpg"
@@ -89,7 +86,7 @@ function TradeShowFreight() {
             <div class="col-md-12 my-3">
               <h2 class="text-center text-uppercase">What We Offer</h2>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
@@ -126,7 +123,7 @@ function TradeShowFreight() {
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
@@ -179,7 +176,7 @@ function TradeShowFreight() {
                 </p>
               </div>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-lg-4 my-3">
               <div class="w-100 h-100 p-5 bg-secondary-dark">
                 <div class="w-100 d-flex align-items-center justify-content-start pb-2">
                   <svg
@@ -222,7 +219,7 @@ function TradeShowFreight() {
       <section class="py-5 cus-client-testimonials">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 ms-auto py-3">
+            <div class="col-lg-6 ms-auto py-3">
               <div class="testimonial-sec overflow-hidden">
                 <h3 class="text-white text-uppercase pb-4 mb-4">
                   Testimonials
