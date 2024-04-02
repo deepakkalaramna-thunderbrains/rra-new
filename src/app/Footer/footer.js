@@ -2,10 +2,18 @@
 
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/slick-carousel/slick/slick.css'
+import {useState} from "react"
+
 
 export default function Footer(){
     let date = new Date()
     let currentYear = date.getFullYear()
+
+    const [showCookies, setShowCookies] = useState(true)
+
+    const handleCookies = () => {
+        setShowCookies(false)
+    }
 
     return(
         <footer class="bg-secondary-dark pt-5">
@@ -194,13 +202,14 @@ export default function Footer(){
             </div>
 
             {/* Cookies Section Start */}
+            {showCookies && (
             <div class="card p-3 cookie">
                 <span>We use third party cookies to personalize content, ads and analyze site traffic.</span>
                 <div class="mt-2 text-right">
                     <span class="mr-3 decline">Decline</span>
-                    <button class="btn btn-light btn-sm" type="button">Allow cookies</button>
+                    <button onClick = {handleCookies} class="btn btn-light btn-sm" type="button">Allow cookies</button>
                 </div>
-            </div>
+            </div>)}
             {/* Cookies Section Ends */}
 
         </footer>
