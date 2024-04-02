@@ -253,6 +253,26 @@
     .cus-various-industries ul li h5 {
         font-size: 16px;
     }
+    .cus-our-mission img {
+        min-height: 200px;
+    }
+    .cus-our-mission p br {
+        display: none;
+    }
+    header .navbar .container-fluid {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    header .navbar button.navbar-toggler {
+        padding: 0;
+    }
+    .cus-oragne-one-column .oragne-gradient.p-5 {
+        padding: 2rem !important;
+    }
+    .cus-oragne-two-column .oragne-gradient img {
+        margin-top: 30px;
+        max-height: 150px;
+    }
 }
 @media (max-width: 575.98px) { 
     .cus-numbering .numbering-list {
@@ -278,9 +298,6 @@
         font-size: 14px;
     }
     h6{
-        font-size: 12px;
-    }
-    p {
         font-size: 14px;
     }
     body .btn {
@@ -288,6 +305,102 @@
     }
     body .btn.py-3.px-4 {
         padding: 0.6rem 0.4rem !important;
+    }
+    .cus-hero-sec div img {
+        min-height: 250px;
+        object-fit: cover;
+    }
+    .cus-hero-sec .row {
+        margin: 0;
+    }
+    .cus-experience-rra.py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .cus-experience-rra .my-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial-sec {
+        padding: 1rem;
+    }
+    .quote-mark svg {
+        width: 150px;
+        height: 100px;
+    }
+    .footer-bottom-sec .cus-copy-right .d-flex.flex-row {
+        flex-direction: column !important;
+    }
+    .footer-bottom-sec .cus-copy-right .d-flex.flex-row ul {
+        margin: 0 !important;
+        text-align: center;
+        padding-top: 8px !important;
+    }
+    .cus-copy-right ul .nav-link {
+        padding: .4rem;
+    }
+    .footer-contact-us ul {
+        padding-bottom: 0;
+    }
+    footer:has(.cookie) .footer-bottom-sec {
+        padding-bottom: 140px !important;
+    }
+    .cus-about-contents .col-md-9.mx-auto.py-5,
+    .cus-faq-sec.py-5 {
+        padding: 0 !important;
+    }
+    .cus-our-mission .col-md-12,
+    .cus-hero-sec .row .col-md-12 {
+        padding: 0;
+    }
+    .cus-our-mission img {
+        min-height: 250px;
+    }
+    .cus-various-industries ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cus-various-industries.mb-5,
+    .cus-shipment-tracking.mb-5 {
+        margin-bottom: 0 !important;
+    }
+    .cus-faq-sec .col-md-9.mx-auto.my-5 {
+        margin-top: 2rem !important;
+        padding: 0;
+    }
+    .cus-faq-sec .accordion-button {
+        padding: 1.5rem;
+        font-size: 16px;
+    }
+    .cus-faq-sec .accordion-body {
+        padding: 0 1.5rem 1.5rem;
+    }
+    .cus-shipment-tracking .col-md-11.mx-auto {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .cus-oragne-one-column .container-fluid,
+    .cus-oragne-two-column .container-fluid {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .cus-faq-sec .accordion-body p {
+        font-size: 14px;
+    }
+    .cus-faq-sec h2.text-center {
+        padding-top: 1rem;
+    }
+    .cus-oragne-two-column .oragne-gradient.p-5 {
+        padding: 2rem !important;
+    }
+    .cus-contact-form .map-addresses,
+    .cus-contact-form .enquiry-form {
+        padding: 2rem 1.5rem !important;
+    }
+    body .cus-contact-form .enquiry-form .btn {
+        min-width: 180px;
+    }
+    .enquiry-form input, .enquiry-form textarea, .enquiry-form select {
+        padding: .5rem 1rem;
     }
 }
 @media (max-width: 480.98px) { 
@@ -308,10 +421,23 @@
     .testimonial-sec .carousel-caption p {
         font-size: 14px;
     }
-    .top-bar-menus li {
-        min-width: 30%;
-    }
     .testimonial-sec .carousel-inner {
         max-width: calc(100% - 50px);
+    }
+    .top-bar .top-bar-menus {
+        width: 100%;
+    }
+    .top-bar-menus li {
+        min-width: auto;
+        flex: 1;
+    }
+    .top-bar-menus li a {
+        padding: 10px 2px;
+    }
+    .top-bar-menus li a svg {
+        display: none;
+    }
+    .cus-oragne-one-column .oragne-gradient.p-5 {
+        padding: 1rem !important;
     }
 } 
